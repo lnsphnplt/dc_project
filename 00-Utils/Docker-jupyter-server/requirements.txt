@@ -9,3 +9,4 @@ biopython
 rdkit
 scipy
 statsmodels
+propy3
