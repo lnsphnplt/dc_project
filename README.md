@@ -5,7 +5,7 @@ Prerequisits:
 * Python
 * Docker [[https://www.docker.com/products/docker-desktop/]]
 
-1. Start docker engine by starting docker desktop
+1. Start docker engine by starting docker desktop 
 2. navigate to the repo root directory and execute "python startVirtualEnv.py"
 3. A browser with jupyter lab opens. Enjoy!
 
