@@ -1,0 +1,220 @@
+ID: 16624, Packetsize: 642 , Calculation started
+ID: 29344, Packetsize: 642 , Calculation started
+ID: 9108 , Packetsize: 642 , Calculation started
+ID: 28552, Packetsize: 642 , Calculation started
+ID: 14024, Packetsize: 642 , Calculation started
+ID: 16148, Packetsize: 641 , Calculation started
+ID: 24432, Packetsize: 641 , Calculation started
+ID: 12220, Packetsize: 641 , Calculation started
+ID: 17572, Packetsize: 641 , Calculation started
+ID: 17444, Packetsize: 642 , Calculation started
+ID: 27624, Packetsize: 641 , Calculation started
+ID: 14884, Packetsize: 641 , Calculation started
+ID: 5196 , Packetsize: 641 , Calculation started
+ID: 20844, Packetsize: 641 , Calculation started
+ID: 30620, Packetsize: 641 , Calculation started
+ID: 23740, Packetsize: 641 , Calculation started
+ID: 14884, progress: 0.16 % , calculating descriptors for seq: CWFPWC
+ID: 2060 , Packetsize: 641 , Calculation started
+ID: 5624 , Packetsize: 641 , Calculation started
+ID: 24300, Packetsize: 642 , Calculation started
+ID: 27496, Packetsize: 642 , Calculation started
+ID: 14884, progress: 0.31 % , calculating descriptors for seq: GCEWVSWC
+ID: 23740, progress: 0.16 % , calculating descriptors for seq: NQEGLFRGR
+ID: 2060 , progress: 0.16 % , calculating descriptors for seq: SPTLDDEHNDNFVRL
+ID: 14884, progress: 0.47 % , calculating descriptors for seq: GCEWDSWC
+ID: 23740, progress: 0.31 % , calculating descriptors for seq: NEESLFSGR
+ID: 29344, progress: 0.16 % , calculating descriptors for seq: VWRKWRRFW
+ID: 30620, progress: 0.16 % , calculating descriptors for seq: HSHSEVSQISGEWYSVLLASDHREKIEYNGSMRVFVEYIH
+ID: 2060 , progress: 0.31 % , calculating descriptors for seq: PDYLQLARA
+ID: 14884, progress: 0.62 % , calculating descriptors for seq: CYRPPVC
+ID: 9108 , progress: 0.16 % , calculating descriptors for seq: IKLSKETKDNLKKVLKGAIKGAIAVAKMV
+ID: 14884, progress: 0.78 % , calculating descriptors for seq: MDRETEAETAELVTESLVEEVSIDGMCGVY
+ID: 23740, progress: 0.47 % , calculating descriptors for seq: NEEVLFGGR
+ID: 5624 , progress: 0.16 % , calculating descriptors for seq: DVVASSTAHKQQDINHLLDK
+ID: 2060 , progress: 0.47 % , calculating descriptors for seq: PAPETNYLRDP
+ID: 5196 , progress: 0.16 % , calculating descriptors for seq: NAGAPQHLCGSHLVDALYLVCGPSGFFYNPKGIVEQCCHKPCSIFDLQNYCN
+ID: 29344, progress: 0.31 % , calculating descriptors for seq: LPKWKVFKKIEKVGRNIRNGIVKAGPAIAVLGEAKALG
+ID: 23740, progress: 0.62 % , calculating descriptors for seq: NYTIGNDNVLTEPLSEIKTAGLMYKMGVQ
+ID: 20844, progress: 0.16 % , calculating descriptors for seq: KFCERPSGTWAGVCGNNGKCKDQCIRLEKAKHGSCKYKFPAHRCVCYYEC
+ID: 16624, progress: 0.16 % , calculating descriptors for seq: SRSSRAGLQFPVGRIHRLLRK
+ID: 16148, progress: 0.16 % , calculating descriptors for seq: FYHSKRRLIFSKRKP
+ID: 14024, progress: 0.16 % , calculating descriptors for seq: IKTLLHFFQRF
+ID: 2060 , progress: 0.62 % , calculating descriptors for seq: ADYLQLTRA
+ID: 24432, progress: 0.16 % , calculating descriptors for seq: ATCDLASFSSQWVTPNDSLCAAHCLVKGYRGGYCKNKICHCRDKF
+ID: 2060 , progress: 0.78 % , calculating descriptors for seq: ADYLRLARA
+ID: 14024, progress: 0.31 % , calculating descriptors for seq: MAILRSEEIREMDGEELQKKLDELKAEYARYISKSAAAGIHENPGKMREIRRTIARVLTIMNEK
+ID: 5624 , progress: 0.31 % , calculating descriptors for seq: DAHGSGNAHKQQDINHLLD
+ID: 2060 , progress: 0.94 % , calculating descriptors for seq: PASDSGFLRDP
+ID: 16148, progress: 0.31 % , calculating descriptors for seq: KLAGRW
+ID: 16148, progress: 0.47 % , calculating descriptors for seq: RNCESLSHRFKGPCTRDSNC
+ID: 9108 , progress: 0.31 % , calculating descriptors for seq: NDDELHMLMTDLVYEALHFAKDEEIKKRVFQLFELADKAYKNNDRQKLEKVVEELKELLERLLS
+ID: 2060 , progress: 1.09 % , calculating descriptors for seq: SDYLQLART
+ID: 14884, progress: 0.94 % , calculating descriptors for seq: GASCDCHPFKGTYWFGTSNCPSGHGYRKKCDSFF
+ID: 16624, progress: 0.31 % , calculating descriptors for seq: KRHHGYKRKFHEKHHSHR
+ID: 2060 , progress: 1.25 % , calculating descriptors for seq: SLEDIEHEVEELLR
+ID: 23740, progress: 0.78 % , calculating descriptors for seq: PASPQKRAASPRRSPKKSPRKSPKKSPRKRSASP
+ID: 5624 , progress: 0.47 % , calculating descriptors for seq: SVFDEYLEKSKANK
+ID: 27624, progress: 0.16 % , calculating descriptors for seq: MQPSTATAAPKEKTSSEKKDNYIIKGVFWDPACVIA
+ID: 2060 , progress: 1.40 % , calculating descriptors for seq: GVQKSEVVITSA
+ID: 28552, progress: 0.16 % , calculating descriptors for seq: MRCIALFLVLSLVVLMAEPGEGFFFHIIEGLIHAGRMIHRFVHRRRHRHGMEELQDLDQRAFERESAFA
+ID: 5624 , progress: 0.62 % , calculating descriptors for seq: NYQYSPPPPPKKKYY
+ID: 16148, progress: 0.62 % , calculating descriptors for seq: GAFGNFLKGVAKKAGLKILSIAQCKLFGTC
+ID: 17572, progress: 0.16 % , calculating descriptors for seq: MSTSRKLKSHGMRRSKSRSPHKGVKRGGSKRKYRKGNLKSRKRGDDANRNYRSHL
+ID: 2060 , saving ...
+ID: 16624, progress: 0.47 % , calculating descriptors for seq: WLGALFKVASK
+ID: 30620, progress: 0.31 % , calculating descriptors for seq: EAEPHSRI
+ID: 29344, progress: 0.47 % , calculating descriptors for seq: GLFTLIKGAAKLIGKTVAKEAGKTGLELMACKITNQC
+ID: 16624, progress: 0.62 % , calculating descriptors for seq: DLWNSIKDMAAAAGRAALNAVTGMVNQ
+ID: 5624 , progress: 0.78 % , calculating descriptors for seq: MDPAGPDNDERFTYDYYRLRVVGLIVAAVL
+ID: 30620, progress: 0.47 % , calculating descriptors for seq: YQKSSPGSNITT
+ID: 30620, progress: 0.62 % , calculating descriptors for seq: YQTSSPGSNITIGPL
+ID: 16148, progress: 0.78 % , calculating descriptors for seq: PAQPFRIKKRQGPFERP
+ID: 14884, progress: 1.09 % , calculating descriptors for seq: MAQPTASAQKLVRPIRAVCRILQIPESDPSNLRP
+ID: 24432, progress: 0.31 % , calculating descriptors for seq: RRRGRSPRRRTPSPRRRRSQSPRRRRSC
+ID: 30620, progress: 0.78 % , calculating descriptors for seq: DVGPSTLANN
+ID: 23740, progress: 0.94 % , calculating descriptors for seq: MEKWQCTVCGYIYDPEVGDPTQNIPPGTKFEDLPDDWVCPDCGVGKDQFEKI
+ID: 30620, progress: 0.94 % , calculating descriptors for seq: SLRKMHALGET
+ID: 16624, progress: 0.78 % , calculating descriptors for seq: MNFTKLFAIVLLAALVLLGQTEAGGLKKLGKKLEGVGKRVFKASEKALPVAVGIKALGK
+ID: 30620, progress: 1.09 % , calculating descriptors for seq: DTHKSEIAHR
+ID: 27624, progress: 0.31 % , calculating descriptors for seq: MQPITTASTQATQKDKSSEKKDNYIIKGLFWDPACVIA
+ID: 16148, progress: 0.94 % , calculating descriptors for seq: RNRICRTSEKYYREFCGHAGNDDCLSKSTKKPKPFKCVCHDNRSQNITSINDRYNNCICTFYC
+ID: 5624 , progress: 0.94 % , calculating descriptors for seq: NGAPQPFVRF
+ID: 30620, progress: 1.25 % , calculating descriptors for seq: SSNKLTTSWG
+ID: 5196 , progress: 0.31 % , calculating descriptors for seq: GCKDNFSANTCKHVKANNNCGSQKYATNCAKTCGKC
+ID: 5624 , progress: 1.09 % , calculating descriptors for seq: AMRNALVRF
+ID: 30620, progress: 1.40 % , calculating descriptors for seq: AYTVTLYLQG
+ID: 17444, progress: 0.16 % , calculating descriptors for seq: GWKKWLRKGAKHLGQAAIK
+ID: 20844, progress: 0.31 % , calculating descriptors for seq: DSCQDVKQSLADCLMYVTGRALKPA
+ID: 24300, progress: 0.16 % , calculating descriptors for seq: KAACAAKCLWR
+ID: 5624 , progress: 1.25 % , calculating descriptors for seq: AFLTLTPGSHVDSYVEA
+ID: 29344, progress: 0.62 % , calculating descriptors for seq: VLLFLFQAAPGSADAPFADTAACRSQGNFCRAGACPPTFAASGSCHGGLLNCCAK
+ID: 30620, saving ...
+ID: 24432, progress: 0.47 % , calculating descriptors for seq: INLKAIAALAKKLL
+ID: 27496, progress: 0.16 % , calculating descriptors for seq: MASLKKFLFLVLFLGMVSLSICDKEKREGENEEEEEEHEEESEEKRGLFSFLPKVIGVIGPLIHPPS
+ID: 24300, progress: 0.31 % , calculating descriptors for seq: MPRRRRSSSRPVRRRRRPRVSRRRRRRGGRRR
+ID: 5624 , progress: 1.40 % , calculating descriptors for seq: TDPLWQLPGAHLEQYLS
+ID: 24432, progress: 0.62 % , calculating descriptors for seq: RPKHPIK
+ID: 24432, progress: 0.78 % , calculating descriptors for seq: PPCRGIFCRRVGSSSAIARPGKTLSTFITV
+ID: 17444, progress: 0.31 % , calculating descriptors for seq: NLLNKALGTVNGLLGRS
+ID: 14884, progress: 1.25 % , calculating descriptors for seq: MKAFYGILIILLFCSMFKLNESTTINVKCTSPKQCLKPCKDLYGPHAGAKCMNGKCKCYNNG
+ID: 20844, progress: 0.47 % , calculating descriptors for seq: QPRSHVDCPALHGQCQSLPCTYPLVFVGPDPFHCGPYPQFGCCA
+ID: 17444, progress: 0.47 % , calculating descriptors for seq: AARIILRTRFR
+ID: 5624 , saving ...
+ID: 17444, progress: 0.62 % , calculating descriptors for seq: MFTMKKSLLLLFFLGTINLSLCEEERDADQEERRDDPGERDVQVEKRFLPIAPMLGKYLGK
+ID: 12220, progress: 0.16 % , calculating descriptors for seq: KLCERPSGTWSGVCGNNNACKNQCINLEKARHGSCNYVFPAHKCICYFPC
+ID: 27624, progress: 0.47 % , calculating descriptors for seq: MADKPLTADQAEELHKYVIDGARAFVAIAAFAHVLAYSLTPWLH
+ID: 5196 , progress: 0.47 % , calculating descriptors for seq: NPDCLLPIKTGPCKGSFPRYAYDSSEDKCVEFIYGGCQANANNFETIEECEAACL
+ID: 24432, progress: 0.94 % , calculating descriptors for seq: YAVVNDL
+ID: 24432, progress: 1.09 % , calculating descriptors for seq: GFLDTFKNLALNAAKSAGVSVLNSLSCKLFKTC
+ID: 17572, progress: 0.31 % , calculating descriptors for seq: ARDAYIAKPHNCVYECYNPKGSYCNDLCTENGAESGYCQILGKYGNACWCIQLPDNVPIRIPGKCH
+ID: 24300, progress: 0.47 % , calculating descriptors for seq: MRLSIILVVVMMVMAMFVSSGDAAPGKIPVKAIKKGGQIIGKALRGINIASTAHDIISQFKPKKKKNH
+ID: 24432, progress: 1.25 % , calculating descriptors for seq: FLSGLIGGLAKMLGK
+ID: 29344, progress: 0.78 % , calculating descriptors for seq: GILDTLKNLAKTAGKGALQGLVKMASCKLSGQC
+ID: 14024, progress: 0.47 % , calculating descriptors for seq: RLGNFFRKAKKKIGRGLKKIGQKIKDFLGNLVPRTES
+ID: 23740, progress: 1.09 % , calculating descriptors for seq: SQSVVATQLIPMNTALTPVMMEGKVTNPIGIPFAEMSQIVGKQVNTPVAKGQTIMPNMVKTYAA
+ID: 24432, progress: 1.40 % , calculating descriptors for seq: MKISKIEAQARKDFFKKIDTNSNLLNVNGAKCKWWNISCDLGNNGHVCTLSHECQVSCN
+ID: 20844, progress: 0.62 % , calculating descriptors for seq: FLGALVNALRGLL
+ID: 16624, progress: 0.93 % , calculating descriptors for seq: ANAICAKIHAC
+ID: 20844, progress: 0.78 % , calculating descriptors for seq: LVPLLGNLLSGLL
+ID: 16624, progress: 1.09 % , calculating descriptors for seq: WNPFKELERAGQRVRDAIISAGPAVATVGQAAAIARG
+ID: 20844, progress: 0.94 % , calculating descriptors for seq: LVPFLGKTLGGLLARF
+ID: 9108 , progress: 0.47 % , calculating descriptors for seq: GLLQTIKEKLKEFAGGVVTGVQS
+ID: 27624, progress: 0.62 % , calculating descriptors for seq: MNQARIWTVVKPTVGLPLLLGSVTVIAILVHFAVLSHTTWFSKYWNGKAAAIESSVNVG
+ID: 29344, progress: 0.93 % , calculating descriptors for seq: LKKAKKFGKAFVKILKK
+ID: 20844, progress: 1.09 % , calculating descriptors for seq: LVPFLGRTLGGLLARL
+ID: 20844, progress: 1.25 % , calculating descriptors for seq: LVPFLGRTLGGLLARF
+ID: 9108 , progress: 0.62 % , calculating descriptors for seq: MKKGIHPEYIPCKVTCVTSGKEIEVLSTKPEMRIDISSFCHPFYTGSDKIADTAGRVEKFKQRYNLK
+ID: 28552, progress: 0.31 % , calculating descriptors for seq: GLFGVLAKVAAHVVAAIAEHF
+ID: 29344, progress: 1.09 % , calculating descriptors for seq: MKSSFLEKDIEEQVTWFEEVSEQEFDDDIFGACSTNTFSLSDYWGNKGNWCTATHECMSWCK
+ID: 20844, progress: 1.40 % , calculating descriptors for seq: FLGALVNALTRVL
+ID: 20844, saving ...
+ID: 12220, progress: 0.31 % , calculating descriptors for seq: KKLLKKLLKWL
+ID: 14024, progress: 0.62 % , calculating descriptors for seq: LDKPPYLPRPRPPRRIYNR
+ID: 12220, progress: 0.47 % , calculating descriptors for seq: GFGCPNDYPCHRHCKSIPGRCGGYCGGWHRLRCTCYR
+ID: 14884, progress: 1.40 % , calculating descriptors for seq: QMDMRCSASVECKQKCLKAIGSIFGKCMNKKCKC
+ID: 28552, progress: 0.47 % , calculating descriptors for seq: FKTWKRPPFQTSCSGIIKE
+ID: 16148, progress: 1.09 % , calculating descriptors for seq: DIGGSRQGCVA
+ID: 5196 , progress: 0.62 % , calculating descriptors for seq: MKKCAFVSDFDGTISKQDFY
+ID: 16624, progress: 1.25 % , calculating descriptors for seq: KKLFKKILKYLGIGAVLKVLTTGLKDEL
+ID: 16148, progress: 1.25 % , calculating descriptors for seq: KEEQIGKSSTRGRKSSRRKK
+ID: 14024, progress: 0.78 % , calculating descriptors for seq: DKEWILQKIYEIMRLLDELGHAEASMRVSDLIYEFMKKGDERLLEEAERLLEEVER
+ID: 28552, progress: 0.62 % , calculating descriptors for seq: YYGNGVTCGKHSCSVDWGKATTCIINNGAMAWATG
+ID: 17444, progress: 0.78 % , calculating descriptors for seq: GKLWLKGGKLWLKGGKLWLKGGKLWLKG
+ID: 5196 , progress: 0.78 % , calculating descriptors for seq: RMPSLSIDLPMSVLRQKLSLEKERKVQALRAAANRNFLNDI
+ID: 16148, progress: 1.40 % , calculating descriptors for seq: MKFTKVLVIFIVVIALLVPSEAAPGKIPIGAIKKAGKAIGKGLRAVNIASTAHDVYTFFKPKKRH
+ID: 27496, progress: 0.31 % , calculating descriptors for seq: NGNVATTSPTKQNIIQSGAFSPYETPDVMGALTSLKMTADFILQSDGLTYFISKPTS
+ID: 16624, progress: 1.40 % , calculating descriptors for seq: CEGLPNIDC
+ID: 14884, saving ...
+ID: 16624, saving ...
+ID: 24300, progress: 0.62 % , calculating descriptors for seq: KVMAHMK
+ID: 24300, progress: 0.78 % , calculating descriptors for seq: KLKRKAKNAVA
+ID: 17572, progress: 0.47 % , calculating descriptors for seq: MAVQQNKPTRSKRGMRRSHDALTAVTSLSVDKTSGEKHLRHHITADGYYRGRKVIAK
+ID: 12220, progress: 0.62 % , calculating descriptors for seq: MRILYQLLVVLFVMLQAAAGQRYIPGRFNSCAARNGICIPGICRRPFYWAGRCSNGLTCCKRYVEVQG
+ID: 17444, progress: 0.93 % , calculating descriptors for seq: GVTITVKPPFPGCVFYECIANCRSRGYKNGGYCTINGCQCLR
+ID: 28552, progress: 0.78 % , calculating descriptors for seq: RKPRTTKPKPAPKQEPATEE
+ID: 24300, progress: 0.93 % , calculating descriptors for seq: MAFLKKSLFLVLFLGLVSLSICEEEKRETEEEEHDQEEDDKSEEKRFLSLIPHIVSGVASLAIHFG
+ID: 24432, saving ...
+ID: 23740, progress: 1.25 % , calculating descriptors for seq: QSVVATQLIPINTALTPAMMEGKVTNPIGIPFAEMSQIVGKQVNTPVAKGQTIMPNMVKTYAA
+ID: 28552, progress: 0.93 % , calculating descriptors for seq: LSKYGGECSRAHNTCTYRKGGKNQVVNCPSAANKKCKSDRHHCEYDEYHKRVDCQTPV
+ID: 27624, progress: 0.78 % , calculating descriptors for seq: MNQGRIWTVVSPTVGLPLLLGSVAAIAFAVHFAVLENTSWVAAFMNGKSVAAAPAPAAPAAPAKK
+ID: 5196 , progress: 0.94 % , calculating descriptors for seq: SFSVNPAVEILQHRYMEKVAQNNRNFLNRV
+ID: 17444, progress: 1.09 % , calculating descriptors for seq: GLFDIIKKIAESFG
+ID: 29344, progress: 1.25 % , calculating descriptors for seq: ANVVATYPAHS
+ID: 17444, progress: 1.25 % , calculating descriptors for seq: RCICTTRTCRFPYRRLGTCIFQNRVYTFCC
+ID: 5196 , progress: 1.09 % , calculating descriptors for seq: FDVNSHTTPCGPVTCSGAQMCEVDKCVCSDLHCKVKCEHGFKKDDNGCEYACICADAPQ
+ID: 29344, progress: 1.40 % , calculating descriptors for seq: SYEW
+ID: 29344, saving ...
+ID: 27496, progress: 0.47 % , calculating descriptors for seq: GVNMYIRQIYDTCWKLKGHCRNVCGKKEIFHIFCGTQFLCCIERKEMPVFVK
+ID: 14024, progress: 0.93 % , calculating descriptors for seq: MKSNLLKINNVTEVEKDMVTLIKDEDMELAGGSTPACAIGVVGITVAVTGISTACTSRCINK
+ID: 9108 , progress: 0.78 % , calculating descriptors for seq: AYPGNGVHCGKYSCTVDKQTAIGNIGNNAA
+ID: 17444, progress: 1.40 % , calculating descriptors for seq: MKILYLLFAFLFLAFLSEPGNAYKRCHIKGGHCFPKEKICIPPSSDFGKMDCPWRRKCCKKGSGK
+ID: 16148, saving ...
+ID: 17572, progress: 0.62 % , calculating descriptors for seq: MAKGIREKIKLVSSAGTGHFYTTTKNKRTKPEKLELKKFDPVVRQHVIYKEAKIK
+ID: 9108 , progress: 0.93 % , calculating descriptors for seq: DTFDYKKFGYRYDSLELEGRSISRIDELIQQRQEKDRTFAGFLLKGFGTSAS
+ID: 23740, progress: 1.40 % , calculating descriptors for seq: SQSVVATRLIPMNTALTPAMMEGKVTNPIGIPFAEMSQIVGKQVNRIVAKGQTLMPNMVKTYAA
+ID: 28552, progress: 1.09 % , calculating descriptors for seq: ENDHRMPNNLNRPNNLSKGGAKCGAAIAGGLFGIPKGPLAWAAGLANVYSKCN
+ID: 27624, progress: 0.94 % , calculating descriptors for seq: MNQGRIWTVVKPTVGLPLLLGSVAIMVFLVHFAVLTHTTWVAKFMNGKAAAIESSIKAV
+ID: 12220, progress: 0.78 % , calculating descriptors for seq: MEKLFKEVKLEELENQKGSGLGKAQCAALWLQCASGGTIGCGGGAVACQNYRQFCR
+ID: 24300, progress: 1.09 % , calculating descriptors for seq: PPDEGYPPMRMQVPPLGGRIILVRVLLHLNKIRIRAREIYES
+ID: 5196 , progress: 1.25 % , calculating descriptors for seq: MRLAYLLLLLVAVLFQAGGGSVEAFVQHRPRDCESINGVCRHKDTVNCREIFLADCYNDEQKCCRK
+ID: 27496, progress: 0.62 % , calculating descriptors for seq: GTITLLCEEERGADEDDGGEMKEELVKRGFLSLLSNAAKFLGKTLLKNVGKAGLETAACKATNQC
+ID: 14024, progress: 1.09 % , calculating descriptors for seq: WMEWDREIEALAKAAEALAKAAEALAKAAWASLWNWF
+ID: 28552, progress: 1.25 % , calculating descriptors for seq: ALLDKLKSLGKVVGKVAIGVAQHYLNPQQ
+ID: 17572, progress: 0.78 % , calculating descriptors for seq: MLELLKSLVFAVIMVPVVMAIILGLIYGLGEVFNIFSGVGKKDQPGQNH
+ID: 24300, progress: 1.25 % , calculating descriptors for seq: GLNALKKVFQGIHEAIKLINKHVQ
+ID: 9108 , progress: 1.09 % , calculating descriptors for seq: NPLPEEVQEEGLVRQKRVTCDVLSFEAKGIAVNHSACALHCIALRKKGGSCQNGVCVCRN
+ID: 28552, progress: 1.40 % , calculating descriptors for seq: MRTSYLLLFILCLVLCDMDSGDTFLTGLGHRSDHYNCVKGGGQCLYSACPIYTKVQGTCYGGKAKCCK
+ID: 23740, saving ...
+ID: 24300, progress: 1.40 % , calculating descriptors for seq: HPHVCTSYYCSKFCGTAGCTRYGCRNLHRGKLCFCLHCSR
+ID: 27624, progress: 1.09 % , calculating descriptors for seq: MNQGRIWTVVKPTVGLPLLLGSVTVIAILVHFAVLSNTTWFSKYWNGKAAAIESSVSIG
+ID: 14024, progress: 1.25 % , calculating descriptors for seq: FPTTKTYFPH
+ID: 17444, saving ...
+ID: 12220, progress: 0.94 % , calculating descriptors for seq: GLFTLIKGAAKLIGKAVAKEAGKTGLELMACKITNQC
+ID: 14024, progress: 1.40 % , calculating descriptors for seq: MKVLYLLFSFLFIFLMPLPGAFGDIRNPVTCLRSGAICHPGFCPRRYKHIGVCGVSAIKCCKKP
+ID: 24300, saving ...
+ID: 17572, progress: 0.94 % , calculating descriptors for seq: SNKRKNAAMLDMIAQHAIRGCCSDPRCRYRCR
+ID: 12220, progress: 1.09 % , calculating descriptors for seq: MRLHHLLLALLFLVLSAGSGFTQGVRNSLSCGRNKGVCVPIRCPGHMRQIGTCLGAPVKCCRRK
+ID: 27496, progress: 0.78 % , calculating descriptors for seq: RRRPRPPYLPRPRPPPFFPPRLPPRIPPGFPPRFP
+ID: 17572, progress: 1.09 % , calculating descriptors for seq: GCCSHPACNVNNPHICG
+ID: 5196 , progress: 1.40 % , calculating descriptors for seq: TICTGADRPCAACCPCCPGTSCQGPEPNGVSYCRND
+ID: 17572, progress: 1.25 % , calculating descriptors for seq: GGCCSHPACAANNQDYC
+ID: 17572, progress: 1.40 % , calculating descriptors for seq: TMCYSHTTTSRAILTNCGENSCYRKSRRHPPKMVLGRGCGCPPGDDNLEVKCCTSPDKCNY
+ID: 9108 , progress: 1.25 % , calculating descriptors for seq: KSCCPTTTARNIYNACRFALGTRERCSKLSGCKIVDGKCKPPYIH
+ID: 27496, progress: 0.93 % , calculating descriptors for seq: GWFGKAFRSVSNFYKKHKTYIHAGLSAATLLGDMTDEEFQEFMQDIEQAREEELLSRQ
+ID: 27624, progress: 1.25 % , calculating descriptors for seq: MADKTLTGLTVEESEELHKHVIDGTRIFGAIAIVAHFLAYVYSPWLH
+ID: 5196 , saving ...
+ID: 28552, saving ...
+ID: 14024, saving ...
+ID: 9108 , progress: 1.40 % , calculating descriptors for seq: KKLLKWLKKLL
+ID: 9108 , saving ...
+ID: 12220, progress: 1.25 % , calculating descriptors for seq: FAVWGCADYRGYCRAACFAFEYSLGPKGCTEGYVCCVPNTF
+ID: 27624, progress: 1.40 % , calculating descriptors for seq: MADDPNKVWPTGLTIAESEELHKHVIDGTRIFGAIAIVAHFLAYVYSPWLH
+ID: 12220, progress: 1.40 % , calculating descriptors for seq: LTAEDKKLIQQAWEKAASHQEEFGAEALTRMFTTYPQTKTY
+ID: 17572, saving ...
+ID: 27496, progress: 1.09 % , calculating descriptors for seq: RWRRFWRR
+ID: 27496, progress: 1.25 % , calculating descriptors for seq: MFTMKKSLLLLFFLGAINLSLCQEERNAEEERRDGDDEGSVEVQKRFFPLLFGALSSHLPKLFGK
+ID: 12220, saving ...
+ID: 27624, saving ...
+ID: 27496, progress: 1.40 % , calculating descriptors for seq: RWKIFKKIEKVGQNIRDGIVKAGPAVAVVGQAATIG
+ID: 27496, saving ...
