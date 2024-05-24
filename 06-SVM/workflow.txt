@@ -1,0 +1,13 @@
+Initial Model Training: Train the initial model without hyperparameter tuning to establish a baseline performance and identify important features.
+
+Hyperparameter Tuning: Use techniques like grid search or random search to optimize the hyperparameters of the model based on the initial performance. This step helps improve the model's performance without changing its structure.
+
+again model training
+
+PCA: Apply PCA (Principal Component Analysis) to reduce the dimensionality of the feature space while retaining most of the variance. PCA can help in reducing computational complexity and mitigating the curse of dimensionality.
+
+Model Training after PCA: Train a new model using the reduced feature space obtained after PCA. This step allows the model to adapt to the reduced feature space and potentially improve its performance.
+
+Feature Selection: After model training post-PCA, further feature selection techniques can be applied if needed to identify the most informative features for the model. This step helps in reducing overfitting and improving model generalization.
+
+Final Model Training: Finally, train the model using the optimized hyperparameters, reduced feature space (after PCA), and selected features (if applicable) to build the final model.
