@@ -17,7 +17,9 @@ container: "docker://residual233/ipynb-execution:latest"
 
 rule all:
     input:
-        os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db")
+        os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db"),
+        os.path.join(ROOT_DIR, "03-EDA/AA-makeup.pdf"),
+        os.path.join(ROOT_DIR, "03-EDA/seqLengthDistribution.pdf")
 
 
 rule create_sql_db:
@@ -36,3 +38,13 @@ rule curate_data:
         os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db")
     notebook:
         os.path.join(ROOT_DIR, "02-Data_Curation/DB_curation.ipynb")
+
+
+rule EDA:
+    input:
+        os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db")
+    output:
+        os.path.join(ROOT_DIR, "03-EDA/AA-makeup.pdf"),
+        os.path.join(ROOT_DIR, "03-EDA/seqLengthDistribution.pdf")
+    notebook:
+        os.path.join(ROOT_DIR, "03-EDA/DataExploration.ipynb")

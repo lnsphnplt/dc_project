@@ -130,7 +130,7 @@ if __name__ == "__main__":
 
     # Create processes and start them
     processes = []
-    for i in range(num_cores):
+    for i in range(num_cores):  
         p = mp.Process(target=worker, args=(df_split[i], 3))
         processes.append(p)
         p.start()
