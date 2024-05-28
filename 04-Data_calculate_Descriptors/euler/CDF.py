@@ -1,5 +1,4 @@
 import os
-import sqlite3
 import pandas as pd
 import numpy as np
 import multiprocessing as mp
@@ -10,15 +9,13 @@ import warnings
 from propy import PyPro
 from Bio.SeqUtils.ProtParam import ProteinAnalysis
 import time
+import sqlite3
 
 # This is surely not causing a headache later on...
 warnings.filterwarnings("ignore")
 
 # The following statement was the work of 4h of debugging....
-db_lock = mp.Lock()
-
-
-# Lukis stuff
+file_lock = mp.Lock()
 
 # Function to extract all features and return a DataFrame
 def extract_all_features(peptide):
@@ -94,43 +91,6 @@ def extract_all_features(peptide):
         print(f"Error processing sequence {peptide}: {e}")
         return pd.DataFrame()
 
-def get_sql_con():
-    con = sqlite3.connect('unified.db')
-    return con
-
-def reset_sql_tables(row, table_name="prod_desc2"):
-    print("Setting up new sql table")
-    con = get_sql_con()
-    cur = con.cursor()
-    df = calculate_descriptors(row)
-    # Create table if it does not exist
-    columns = ', '.join([f"{col} REAL" for col in df.columns if col not in ['seq', 'seq_length', 'id', 'valid', 'name', 'source', 'description', 'OX']])
-    create_table_query = f"""
-    CREATE TABLE IF NOT EXISTS {table_name} (
-        id TEXT,
-        seq TEXT PRIMARY KEY,
-        seq_length INTEGER,
-        valid TEXT,
-        name TEXT,
-        source TEXT,
-        description TEXT,
-        OX TEXT,
-        {columns}
-    )
-    """
-    df.to_sql(table_name, con, if_exists="replace")
-    cur.execute(create_table_query)
-    
-    con.commit()
-    con.close()
-
-def save_to_sql(df, table_name="prod_desc"):
-    with db_lock:
-        con = get_sql_con()
-        df.to_sql(table_name, con, if_exists='append', index=False)
-        con.commit()
-        con.close()
-
 def calculate_descriptors(row):
     mol = Chem.MolFromSequence(row['seq'])
     descriptor_names = [desc_name for desc_name, _ in Descriptors._descList]
@@ -143,24 +103,34 @@ def calculate_descriptors(row):
             descriptors[desc_name] = None
             print(f"Error calculating descriptor {desc_name}: {e}")
 
-    
-
-    
     return pd.concat([row.to_frame().T.reset_index(drop=True), pd.DataFrame([descriptors]).reset_index(drop=True)], axis=1)
 
-def calc_and_save(packet, save_interval=10):
+def save_to_hdf(df, file_path):
+    df = df.loc[:, ~df.columns.duplicated()]
+    with file_lock:
+        df.to_hdf(file_path, key='data', mode='a', format='table', append=True, complib='blosc', complevel=9)
+
+def calc_and_save(packet, file_path, save_interval):
     process_id = mp.current_process().pid
     q.put(f"ID: {process_id:<5}, Packetsize: {len(packet['seq']):<4}, Calculation started")
-    result = calculate_descriptors(packet.iloc[0])
+    result = pd.concat([calculate_descriptors(packet.iloc[0]), extract_all_features(packet.iloc[0]['seq'])], axis=1)
     for i in range(1, len(packet['seq'])):
         q.put(f"ID: {process_id:<5}, progress: {i / len(packet['seq']) *  100:2.2f} % , calculating descriptors for seq: {packet.iloc[i]['seq']}")
-        result = pd.concat([result, calculate_descriptors(packet.iloc[i]), extract_all_features(packet.iloc[i]['seq'])], axis=0)
-        # Save interval -> memory management
-        if i % save_interval == save_interval - 1:
+        new_result = pd.concat([calculate_descriptors(packet.iloc[i]), extract_all_features(packet.iloc[i]['seq'])], axis=1)
+        result = pd.concat([result, new_result], ignore_index=True)
+        
+        # Save at intervals
+        if i % save_interval == 0 and i != 0:
             q.put(f"ID: {process_id:<5}, saving ...")
-            save_to_sql(result)
+            save_to_hdf(result, file_path)
             result = result[0:0]
             q.put(f"ID: {process_id:<5}, continuing")
+    
+    # Save any remaining results
+    if not result.empty:
+        q.put(f"ID: {process_id:<5}, saving ...")
+        save_to_hdf(result, file_path)
+        q.put(f"ID: {process_id:<5}, finished")
 
 def queue_printer(queue, stop_event, filename, total_messages):
     with open(filename, 'w') as f, tqdm(total=total_messages, desc="Processing") as pbar:
@@ -169,7 +139,7 @@ def queue_printer(queue, stop_event, filename, total_messages):
                 item = queue.get(timeout=0.1)
                 f.write(f"{item}\n")
                 f.flush()
-                if "saving" not in item and "continuing" not in item:
+                if "saving" not in item and "continuing" not in item and not "started" in item:
                     pbar.update(1)
             except:
                 continue
@@ -184,16 +154,13 @@ if __name__ == "__main__":
     print(f"CPU cores: {num_cores}")
 
     # DB import
-    con = get_sql_con()
+    con = sqlite3.connect('unified.db')
     df = pd.read_sql_query("SELECT * FROM prod", con)
     con.close()
     print(f"Found {len(df['seq'])} sequences.") 
 
     # For interprocess communication
     msg_queue = mp.Queue()
-
-    # Setup output sql table
-    reset_sql_tables(row=df.iloc[0])
 
     # Calculate the total number of messages (excluding "saving" and "continuing")
     total_messages = len(df['seq'])
@@ -206,9 +173,16 @@ if __name__ == "__main__":
 
     # Perform calculation
     print("Starting Calculation")
+    output_file = "output.h5"
+    
+    # Initialize the HDF5 file
+    with pd.HDFStore(output_file, mode='w', complib='blosc', complevel=9) as store:
+        pass
+
     df_split = np.array_split(df, num_cores)
+    save_intervals = np.random.randint(1, 10, size=num_cores)  # Variable save intervals for each process
     pool = mp.Pool(num_cores, initializer=init, initargs=(msg_queue,))
-    pool.map(calc_and_save, df_split)
+    pool.starmap(calc_and_save, [(df_split[i], output_file, save_intervals[i]) for i in range(num_cores)])
     pool.close()
     pool.join()
 

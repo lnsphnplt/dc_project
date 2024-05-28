@@ -1,0 +1,38 @@
+from snakemake.utils import min_version
+import os
+
+min_version("8.11.6")  # Docker syntax changes in recent updates.
+
+
+configfile: "workflow/config.yaml"
+
+# Import root directory
+ROOT_DIR = config['paths']['ROOT_DIR']
+
+# to change paths
+os.environ["SNAKEMAKE_EXECUTION"] = "1"
+
+# Specify the container to use for this rule
+container: "docker://residual233/ipynb-execution:latest"
+
+rule all:
+    input:
+        os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db")
+
+
+rule create_sql_db:
+    input:
+        os.path.join(ROOT_DIR, "01-Data_Extraction/data_pos_neg.csv")
+    output:
+        os.path.join(ROOT_DIR, "02-Data_Curation/unified.db")
+    notebook:
+        os.path.join(ROOT_DIR, "02-Data_Curation/DB_creation.ipynb")
+
+
+rule curate_data:
+    input:
+        os.path.join(ROOT_DIR, "02-Data_Curation/unified.db")
+    output:
+        os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db")
+    notebook:
+        os.path.join(ROOT_DIR, "02-Data_Curation/DB_curation.ipynb")
