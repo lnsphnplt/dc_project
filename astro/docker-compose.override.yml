@@ -1,8 +1,0 @@
-version: '3'
-services:
-  webserver:
-    volumes:
-      - ../../dc_project:/mnt/
-  scheduler:
-    volumes:
-      - ../../dc_project:/mnt/

@@ -13,3 +13,4 @@ scipy
 statsmodels
 propy3
 snakemake
+tables
