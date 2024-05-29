@@ -34,10 +34,3 @@ PS: The first time you start it might take a while because docker needs to build
     * provides the scripts necessairy to calculate the descriptors localy or on euler cluster
 
 
-
-# dc_project
-
-data_pos_neg.csv columns:\[eine id falls existent sonst von mir festgelegt, name wie auf database genannt wird, description sind random info oft einfach leer, OX= organism oder spezies oder ähnlich\]
-
-
-
