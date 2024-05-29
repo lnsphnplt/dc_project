@@ -18,7 +18,9 @@ PS: The first time you start it might take a while because docker needs to build
     * all docker files
 
 * 01-Data_Extraction
-    * TODO: add stuff
+    * Scraping of html databases
+    * Uniform formating of all accessible datasets
+    * Matching of pos/neg samples in sequence-length distributions
 
 * 02-Data_Curation
     * Checks data integrity
