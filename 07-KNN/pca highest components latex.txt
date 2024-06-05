@@ -1,0 +1,13 @@
+\begin{tabular}{lllll}
+\toprule
+{} &   PC &            3 &             2 &               1 \\
+\midrule
+0 &  PC0 &   PEOE\_VSA10 &    PEOE\_VSA12 &  HeavyAtomCount \\
+1 &  PC1 &  SlogP\_VSA12 &  EState\_VSA11 &      SlogP\_VSA6 \\
+2 &  PC2 &     SMR\_VSA4 &     PEOE\_VSA4 &     SlogP\_VSA12 \\
+3 &  PC3 &   PEOE\_VSA11 &   EState\_VSA9 &    EState\_VSA11 \\
+4 &  PC4 &   SlogP\_VSA4 &   EState\_VSA9 &    EState\_VSA11 \\
+5 &  PC5 &     SMR\_VSA4 &    SlogP\_VSA4 &      PEOE\_VSA14 \\
+6 &  PC6 &   PEOE\_VSA14 &  EState\_VSA11 &     EState\_VSA7 \\
+\bottomrule
+\end{tabular}
