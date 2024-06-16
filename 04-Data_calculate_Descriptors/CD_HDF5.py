@@ -37,37 +37,13 @@ def calculate_propy_descriptors(seq: str):
     pro = PyPro.GetProDes(seq)
 
     # Get composition (20)
-    safe_update(pro.GetAAComp, df, 0, 20)
+    safe_update(    , df, 0, 20)
 
     # Get dipeptide composition (400)
     safe_update(pro.GetDPComp, df, 20, 420)
 
     # Get tripeptide sequence (8000)
     safe_update(pro.GetTPComp, df, 420, 8420)
-
-    # Get Composition Transition Distribution descriptors (147)
-    safe_update(pro.GetCTD, df, 8420, 8567)
-
-    # Get Geary autocorrelation descriptors (240)
-    safe_update(pro.GetGearyAuto, df, 8567, 8807)
-
-    # Get Moran autocorrelation descriptors (240)
-    safe_update(pro.GetMoranAuto, df, 8807, 9047)
-
-    # Get Normalized Moreau-Broto autocorrelation descriptors (240)
-    safe_update(pro.GetMoreauBrotoAuto, df, 9047, 9287)
-
-    # Get Quasi sequence order descriptors (default is 50)
-    safe_update(pro.GetQSO, df, 9287, 9337)
-
-    # Get Sequence order coupling numbers (default is 45)
-    safe_update(pro.GetSOCN, df, 9337, 9382)
-
-    # Get Type I Pseudo amino acid composition descriptors (default is 30)
-    safe_update(pro.GetPAAC, df, 9382, 9412)
-
-    # Get Amphiphilic (Type II) Pseudo amino acid composition descriptors (30)
-    safe_update(pro.GetAPAAC, df, 9412, 9442)
 
     return df
 
