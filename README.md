@@ -36,6 +36,7 @@ PS: The first time you start it might take a while because docker needs to build
 ## Snakemake
 For optimal reproducablity this entire project can be run via snakemake. However there are some caviats and things to adress:
 
+### Setup
 * Make sure you are using the newest snakemake version:
 
 ```bash
@@ -68,14 +69,41 @@ Docker version 26.0.0, build 2ae903e
 
 ```path
 dc_project/workflow/config.yaml
-
 ```
 ### Execution
 
-For the execution of the project we recommend the following command:
+To reproduce our project we recommend the following steps:
+
+1. To do: Data extraction automation
+
+2. Create database and validate data
 
 ```bash
-snakemake --sdm apptainer -c all
+snakemake --until EDA --sdm apptainer -c all
 ```
 
-This executes the entire project using all avalible cores.  Depending on your internet speed it takes a moment for the docker image to be downloaded.
+This only executes the first part of the project. Depending on your internet speed it takes a moment for the docker image to be downloaded. The image only needs to downloaded once.
+
+3. Calculate descriptors
+You can let this run automatically in snakemake however we dont recomend this. This is a very performance intensive task. We have optimized the code to make use of multithreading. Running this in a docker container would waste computing power by the virtualization used by docker. This calculation will max out your CPU, making your PC unusable for the next 15-60 min (Depending on the performance of your PC). We recommend letting this run on the euler cluster. 
+
+This can be done by:
+SSH into euler (you need to be in a eth network or use the VPN)
+```bash
+ssh username@euler.ethz.ch
+```
+
+We recommend working the scratch directory. This will be automatically delted after some time. This ensures you dont clutter up euler. Replace username with your eth creds.
+
+```bash
+cd $SCRATCH
+```
+Copy the relevant files to euler:
+
+
+We have purposly excluded some parts from the snakemake workflow:
+* Descriptor calculation: This is very performance intensive. We provide a guide on how to run this on euler. You can run this on your local machine, however due to it being able to make use of multiple cores it will max out your CPU which on somesystems can lead to crashes.
+
+* Data extraction: Todo explain why
+
+

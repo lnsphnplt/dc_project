@@ -31,15 +31,6 @@ rule create_sql_db_and_curate_data:
         os.path.join(ROOT_DIR, "02-Data_Curation/DB_curation.ipynb")
 
 
-rule curate_data:
-    input:
-        os.path.join(ROOT_DIR, "02-Data_Curation/unified.db")
-    output:
-        
-    notebook:
-        os.path.join(ROOT_DIR, "02-Data_Curation/DB_curation.ipynb")
-
-
 rule EDA:
     input:
         os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db")
@@ -48,3 +39,12 @@ rule EDA:
         os.path.join(ROOT_DIR, "03-EDA/seqLengthDistribution.pdf")
     notebook:
         os.path.join(ROOT_DIR, "03-EDA/DataExploration.ipynb")
+
+rule calculate_descriptors:
+    input:
+        os.path.join(ROOT_DIR, "03-EDA/AA-makeup.pdf"),
+        os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db")
+    output:
+        os.path.join(ROOT_DIR, "unified_final.db")
+    notebook:
+        os.path.join(ROOT_DIR, "02-Data_Curation/DB_curation.ipynb")
