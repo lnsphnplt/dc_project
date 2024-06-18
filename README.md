@@ -33,4 +33,12 @@ PS: The first time you start it might take a while because docker needs to build
 * 04-Data_processing
     * provides the scripts necessairy to calculate the descriptors localy or on euler cluster
 
+## Snakemake
+For optimal reproducablity this entire project can be run via snakemake. However there are some caviats and things to adress:
 
+* Make sure you are using the newest snakemake version:
+
+```bash
+(snakemake) residual@XPS:/mnt/z/projects/dc_project$ snakemake --version
+8.11.6
+```
