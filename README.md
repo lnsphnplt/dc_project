@@ -93,7 +93,7 @@ We recommend working the scratch directory. This will be automatically delted af
 ```bash
 cd $SCRATCH
 ```
-``On your local machine:``
+__On your local machine:__
 Copy the relevant files to euler(replace username with your username):
 scripts:
 ```bash
@@ -104,7 +104,7 @@ Data file:
 scp 02-Data_Curation/unified-curated.db username@euler.ethz.ch:/cluster/scratch/username/
 ```
 
-'' On euler ''
+__On euler:__
 Now this should look like this:
 ```bash
 [emathier@eu-login-48 emathier]$ pwd
@@ -155,7 +155,7 @@ tail -f output.log
 Processing:  62%|██████▏   | 7969/12828 [04:33<04:32, 17.84it/s]
 ```
 
-Result:
+#### Result:
 ```bash
 Job information
  Job ID                          : 62516304
