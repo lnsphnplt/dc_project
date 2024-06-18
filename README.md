@@ -82,7 +82,13 @@ This only executes the first part of the project. Depending on your internet spe
 
 You can let this run automatically in snakemake however we dont recomend this. This is a very performance intensive task. We have optimized the code to make use of multithreading. Running this in a docker container would waste computing power by the virtualization used by docker. This calculation will max out your CPU, making your PC unusable for the next 15-60 min (Depending on the performance of your PC). We recommend letting this run on the euler cluster. 
 
-This can be done by:
+If you want to skip calculating the descripors yourself:
+```bash
+mv unified-curated-backup.db unified-curated.db
+```
+
+
+### Calculate on Euler
 SSH into euler (you need to be in a eth network or use the VPN)
 ```bash
 ssh username@euler.ethz.ch
@@ -94,6 +100,7 @@ We recommend working the scratch directory. This will be automatically delted af
 cd $SCRATCH
 ```
 __On your local machine:__
+
 Copy the relevant files to euler(replace username with your username):
 scripts:
 ```bash
@@ -105,6 +112,7 @@ scp 02-Data_Curation/unified-curated.db username@euler.ethz.ch:/cluster/scratch/
 ```
 
 __On euler:__
+
 Now this should look like this:
 ```bash
 [emathier@eu-login-48 emathier]$ pwd
@@ -156,6 +164,7 @@ Processing:  62%|██████▏   | 7969/12828 [04:33<04:32, 17.84it/s]
 ```
 
 #### Result:
+
 ```bash
 Job information
  Job ID                          : 62516304
@@ -183,9 +192,17 @@ Resource usage
  Total resident memory           : 5709.97 MiB
  Resident memory utilization     : 39.65%
 ```
-Looking at the execution stats it too around 11 min to complete. 
+Looking at the execution stats it took around 11 min to complete. If we look at Total CPU time we see that it would take around 7 hours on a single core.
 
-''Local execution''
+Finally copy back the database file:
+
+On your local machine
+```bash
+scp username@euler.ethz.ch:/cluster/scratch/username/unified-curated.db .
+```
+
+### Local execution
+
 This is not recommend however if you want to run it locally: Execute the following commands from the root directory. (Maybe do this in a venv)
 Install dependencies
  ```bash
