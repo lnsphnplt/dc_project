@@ -42,3 +42,18 @@ For optimal reproducablity this entire project can be run via snakemake. However
 (snakemake) residual@XPS:/mnt/z/projects/dc_project$ snakemake --version
 8.11.6
 ```
+Older versions like the one you get wenn using:
+```bash
+(base) residual@XPS:/mnt/z/projects/dc_project$ sudo apt install snakemake
+(base) residual@XPS:/mnt/z/projects/dc_project$ snakemake --version
+6.15.1
+```
+There are recent changes in the snakemake/docker syntax. Make sure you are using at least verion 8. I installing snakemake as recommend in their docks using mamba: [Installtion guide](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) 
+
+* Make sure apptainer is installed:
+Sadly apptainer does not support windows. We run this on a windows machine using WSL. Make sure you have the correct version
+
+```bash
+(snakemake) residual@XPS:/mnt/z/projects/dc_project$ apptainer --version
+apptainer version 1.3.1
+```
