@@ -1,16 +1,10 @@
 # Digital Chemistry Project
-## Getting started
+## numpy version 2.0.0
+On the 16.6 numpy released version 2 this breaks rdkit. We recomend using an older numpy version. <2
 
-Prerequisits:
-* Python
-* Docker [[https://www.docker.com/products/docker-desktop/]]
-
-1. Start docker engine by starting docker desktop 
-2. navigate to the repo root directory and execute "python startVirtualEnv.py"
-3. A browser with jupyter lab opens. Enjoy!
-
-PS: The first time you start it might take a while because docker needs to build the necessairy images.
-
+```bash
+pip install --force-reinstall -v "numpy<=2"
+```
 ## Structure
 
 * 00-Utils
@@ -102,9 +96,11 @@ cd $SCRATCH
 Copy the relevant files to euler:
 
 
-We have purposly excluded some parts from the snakemake workflow:
-* Descriptor calculation: This is very performance intensive. We provide a guide on how to run this on euler. You can run this on your local machine, however due to it being able to make use of multiple cores it will max out your CPU which on somesystems can lead to crashes.
 
-* Data extraction: Todo explain why
-
-
+''Local execution''
+This is not recommend however if you want to run it locally: Execute the following commands from the root directory. (Maybe do this in venv)
+Install dependencies
+ ```bash
+sudo pip install -r 00-Utils/Docker-ipnyb-execution/requirements.txt
+python3 04-Data_calculate_Descriptors/copyToEuler/CD2.py
+ ```
