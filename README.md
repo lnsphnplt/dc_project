@@ -48,7 +48,7 @@ Older versions like the one you get wenn using:
 (base) residual@XPS:/mnt/z/projects/dc_project$ snakemake --version
 6.15.1
 ```
-There are recent changes in the snakemake/docker syntax. Make sure you are using at least verion 8. I installing snakemake as recommend in their docks using mamba: [Installtion guide](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) 
+do not work. There are recent changes in the snakemake/docker syntax. Make sure you are using at least verion 8. I recommend installing snakemake as recommended in their docks using mamba: [Installtion guide](https://snakemake.readthedocs.io/en/stable/getting_started/installation.html) 
 
 * Make sure apptainer is installed:
 Sadly apptainer does not support windows. We run this on a windows machine using WSL. Make sure you have the correct version
@@ -57,3 +57,25 @@ Sadly apptainer does not support windows. We run this on a windows machine using
 (snakemake) residual@XPS:/mnt/z/projects/dc_project$ apptainer --version
 apptainer version 1.3.1
 ```
+
+* Lastly make sure docker is installed and the docker engine is running.
+```bash
+(snakemake) residual@XPS:/mnt/z/projects/dc_project$ docker --version
+Docker version 26.0.0, build 2ae903e
+```
+
+* Adjust the absult path of the root directory in 
+
+```path
+dc_project/workflow/config.yaml
+
+```
+### Execution
+
+For the execution of the project we recommend the following command:
+
+```bash
+snakemake --sdm apptainer -c all
+```
+
+This executes the entire project using all avalible cores.  Depending on your internet speed it takes a moment for the docker image to be downloaded.
