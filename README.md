@@ -3,7 +3,7 @@
 On the 16.6 numpy released version 2 this breaks rdkit. We recomend using an older numpy version. <2
 
 ```bash
-pip install --force-reinstall -v "numpy<=2"
+pip install --force-reinstall -v "numpy==1.26.4"
 ```
 ## Structure
 
@@ -93,14 +93,102 @@ We recommend working the scratch directory. This will be automatically delted af
 ```bash
 cd $SCRATCH
 ```
-Copy the relevant files to euler:
+''On your local machine:''
+Copy the relevant files to euler(replace username with your username):
+scripts:
+```bash
+scp 04-Data_calculate_Descriptors/copyToEuler/* username@euler.ethz.ch:/cluster/scratch/username/
+```
+Data file:
+```bash
+scp 02-Data_Curation/unified-curated.db username@euler.ethz.ch:/cluster/scratch/username/
+```
 
+'' On euler ''
+Now this should look like this:
+```bash
+[emathier@eu-login-48 emathier]$ pwd
+/cluster/scratch/emathier
+[emathier@eu-login-48 emathier]$ ls
+CD2.py  runOnEuler.sh  unified-curated.db
+```
 
+Submit into the batch system:
+```bash
+sbatch runOnEuler.sh
+```
+
+Monitor resource usage
+```bash
+mjobs
+
+Job information
+ Job ID                          : 62516304
+ Job name                        : calculate_descriptors
+ Status                          : RUNNING
+ Running on node                 : eu-g9-024-2
+ User                            : emathier
+ Shareholder group               : es_chab
+ Slurm partition (queue)         : normal.4h
+ Command                         : sbatch runOnEuler.sh
+ Working directory               : /cluster/scratch/emathier
+Requested resources
+ Requested runtime               : 00:25:00
+ Requested cores (total)         : 48
+ Requested nodes                 : 1
+ Requested memory (total)        : 14400 MiB
+Job history
+ Submitted at                    : 2024-06-18T16:35:45
+ Started at                      : 2024-06-18T16:35:55
+ Queue waiting time              : 10 s
+Resource usage
+ Wall-clock                      : 00:02:02
+ Total CPU time                  : 01:23:52
+ CPU utilization                 : 85.92%
+ Total resident memory           : 5452.34 MiB
+ Resident memory utilization     : 37.86%
+```
+
+Monitor progress:
+```bash
+tail -f output.log
+Processing:  62%|██████▏   | 7969/12828 [04:33<04:32, 17.84it/s]
+```
+
+Result:
+```bash
+Job information
+ Job ID                          : 62516304
+ Job name                        : calculate_descriptors
+ Status                          : COMPLETED
+ Running on node                 : eu-g9-024-2
+ User                            : emathier
+ Shareholder group               : es_chab
+ Slurm partition (queue)         : normal.4h
+ Command                         : sbatch runOnEuler.sh
+ Working directory               : /cluster/scratch/emathier
+Requested resources
+ Requested runtime               : 00:25:00
+ Requested cores (total)         : 48
+ Requested nodes                 : 1
+ Requested memory (total)        : 14400 MiB
+Job history
+ Submitted at                    : 2024-06-18T16:35:45
+ Started at                      : 2024-06-18T16:35:55
+ Queue waiting time              : 10 s
+Resource usage
+ Wall-clock                      : 00:11:28
+ Total CPU time                  : 06:52:08
+ CPU utilization                 : 74.87%
+ Total resident memory           : 5709.97 MiB
+ Resident memory utilization     : 39.65%
+```
+Looking at the execution stats it too around 11 min to complete. 
 
 ''Local execution''
-This is not recommend however if you want to run it locally: Execute the following commands from the root directory. (Maybe do this in venv)
+This is not recommend however if you want to run it locally: Execute the following commands from the root directory. (Maybe do this in a venv)
 Install dependencies
  ```bash
 sudo pip install -r 00-Utils/Docker-ipnyb-execution/requirements.txt
-python3 04-Data_calculate_Descriptors/copyToEuler/CD2.py
+python3 04-Data_calculate_Descriptors/CD2.py
  ```
