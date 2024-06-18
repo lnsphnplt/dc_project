@@ -93,7 +93,7 @@ We recommend working the scratch directory. This will be automatically delted af
 ```bash
 cd $SCRATCH
 ```
-''On your local machine:''
+``On your local machine:``
 Copy the relevant files to euler(replace username with your username):
 scripts:
 ```bash
