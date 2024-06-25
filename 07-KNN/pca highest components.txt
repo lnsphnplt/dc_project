@@ -1,9 +1,0 @@
-|    | PC   | 3           | 2            | 1              |
-|---:|:-----|:------------|:-------------|:---------------|
-|  0 | PC0  | PEOE_VSA10  | PEOE_VSA12   | HeavyAtomCount |
-|  1 | PC1  | SlogP_VSA12 | EState_VSA11 | SlogP_VSA6     |
-|  2 | PC2  | SMR_VSA4    | PEOE_VSA4    | SlogP_VSA12    |
-|  3 | PC3  | PEOE_VSA11  | EState_VSA9  | EState_VSA11   |
-|  4 | PC4  | SlogP_VSA4  | EState_VSA9  | EState_VSA11   |
-|  5 | PC5  | SMR_VSA4    | SlogP_VSA4   | PEOE_VSA14     |
-|  6 | PC6  | PEOE_VSA14  | EState_VSA11 | EState_VSA7    |
