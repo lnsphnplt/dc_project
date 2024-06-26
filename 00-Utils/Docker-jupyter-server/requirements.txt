@@ -11,4 +11,4 @@ scipy
 statsmodels
 propy3
 tqdm
-
+bayesian-optimization
