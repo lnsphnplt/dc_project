@@ -1,0 +1,50 @@
+from snakemake.utils import min_version
+import os
+
+min_version("8.11.6")  # Docker syntax changes in recent updates.
+
+
+configfile: "workflow/config.yaml"
+
+# Import root directory
+ROOT_DIR = config['paths']['ROOT_DIR']
+
+# to change paths
+os.environ["SNAKEMAKE_EXECUTION"] = "1"
+
+# Specify the container to use for this rule
+container: "docker://residual233/ipynb-execution:latest"
+
+rule all:
+    input:
+        os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db"),
+        os.path.join(ROOT_DIR, "03-EDA/AA-makeup.pdf"),
+        os.path.join(ROOT_DIR, "03-EDA/seqLengthDistribution.pdf")
+
+
+rule create_sql_db_and_curate_data:
+    input:
+        os.path.join(ROOT_DIR, "01-Data_Extraction/new_data_pos_neg.csv")
+    output:
+        os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db")
+    notebook:
+        os.path.join(ROOT_DIR, "02-Data_Curation/DB_curation.ipynb")
+
+
+rule EDA:
+    input:
+        os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db")
+    output:
+        os.path.join(ROOT_DIR, "03-EDA/AA-makeup.pdf"),
+        os.path.join(ROOT_DIR, "03-EDA/seqLengthDistribution.pdf")
+    notebook:
+        os.path.join(ROOT_DIR, "03-EDA/DataExploration.ipynb")
+
+rule calculate_descriptors:
+    input:
+        os.path.join(ROOT_DIR, "03-EDA/AA-makeup.pdf"),
+        os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db")
+    output:
+        os.path.join(ROOT_DIR, "unified_final.db")
+    notebook:
+        os.path.join(ROOT_DIR, "02-Data_Curation/DB_curation.ipynb")

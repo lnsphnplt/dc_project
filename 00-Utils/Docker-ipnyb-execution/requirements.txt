@@ -4,9 +4,13 @@ pandas
 jupyter
 openpyxl
 matplotlib
-NumPy
+numpy==1.26.4
 Seaborn
 scikit-learn
 biopython
 rdkit
 scipy
+statsmodels
+propy3
+snakemake
+tables

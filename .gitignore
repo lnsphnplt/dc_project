@@ -5,3 +5,4 @@ initial_project_data.ipynb
 *.csv
 *.tar
 /04-Data_processing/euler/cpp-source/boost_1_85_0/*
+.*

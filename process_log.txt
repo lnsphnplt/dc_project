@@ -1,0 +1,84 @@
+ID: 5729 , Packetsize: 642 , Calculation started
+ID: 5732 , Packetsize: 642 , Calculation started
+ID: 5736 , Packetsize: 642 , Calculation started
+ID: 5730 , Packetsize: 642 , Calculation started
+ID: 5735 , Packetsize: 642 , Calculation started
+ID: 5737 , Packetsize: 641 , Calculation started
+ID: 5738 , Packetsize: 641 , Calculation started
+ID: 5743 , Packetsize: 641 , Calculation started
+ID: 5740 , Packetsize: 641 , Calculation started
+ID: 5739 , Packetsize: 641 , Calculation started
+ID: 5746 , Packetsize: 641 , Calculation started
+ID: 5742 , Packetsize: 641 , Calculation started
+ID: 5747 , Packetsize: 641 , Calculation started
+ID: 5744 , Packetsize: 641 , Calculation started
+ID: 5749 , Packetsize: 641 , Calculation started
+ID: 5748 , Packetsize: 641 , Calculation started
+ID: 5734 , Packetsize: 642 , Calculation started
+ID: 5743 , progress: 0.16 % , calculating descriptors for seq: CWFPWC
+ID: 5733 , Packetsize: 642 , Calculation started
+ID: 5741 , Packetsize: 641 , Calculation started
+ID: 5743 , progress: 0.31 % , calculating descriptors for seq: GCEWVSWC
+ID: 5747 , progress: 0.16 % , calculating descriptors for seq: NQEGLFRGR
+ID: 5731 , Packetsize: 642 , Calculation started
+ID: 5749 , progress: 0.16 % , calculating descriptors for seq: SPTLDDEHNDNFVRL
+ID: 5747 , progress: 0.31 % , calculating descriptors for seq: NEESLFSGR
+ID: 5743 , progress: 0.47 % , calculating descriptors for seq: GCEWDSWC
+ID: 5747 , progress: 0.47 % , calculating descriptors for seq: NEEVLFGGR
+ID: 5732 , progress: 0.16 % , calculating descriptors for seq: IKLSKETKDNLKKVLKGAIKGAIAVAKMV
+ID: 5730 , progress: 0.16 % , calculating descriptors for seq: VWRKWRRFW
+ID: 5743 , progress: 0.62 % , calculating descriptors for seq: CYRPPVC
+ID: 5747 , progress: 0.62 % , calculating descriptors for seq: NYTIGNDNVLTEPLSEIKTAGLMYKMGVQ
+ID: 5746 , progress: 0.16 % , calculating descriptors for seq: HSHSEVSQISGEWYSVLLASDHREKIEYNGSMRVFVEYIH
+ID: 5743 , progress: 0.78 % , calculating descriptors for seq: MDRETEAETAELVTESLVEEVSIDGMCGVY
+ID: 5749 , progress: 0.31 % , calculating descriptors for seq: PDYLQLARA
+ID: 5748 , progress: 0.16 % , calculating descriptors for seq: DVVASSTAHKQQDINHLLDK
+ID: 5730 , progress: 0.31 % , calculating descriptors for seq: LPKWKVFKKIEKVGRNIRNGIVKAGPAIAVLGEAKALG
+ID: 5749 , progress: 0.47 % , calculating descriptors for seq: PAPETNYLRDP
+ID: 5749 , progress: 0.62 % , calculating descriptors for seq: ADYLQLTRA
+ID: 5742 , progress: 0.16 % , calculating descriptors for seq: KFCERPSGTWAGVCGNNGKCKDQCIRLEKAKHGSCKYKFPAHRCVCYYEC
+ID: 5744 , progress: 0.16 % , calculating descriptors for seq: NAGAPQHLCGSHLVDALYLVCGPSGFFYNPKGIVEQCCHKPCSIFDLQNYCN
+ID: 5749 , progress: 0.78 % , calculating descriptors for seq: ADYLRLARA
+ID: 5749 , progress: 0.94 % , calculating descriptors for seq: PASDSGFLRDP
+ID: 5734 , progress: 0.16 % , calculating descriptors for seq: IKTLLHFFQRF
+ID: 5729 , progress: 0.16 % , calculating descriptors for seq: SRSSRAGLQFPVGRIHRLLRK
+ID: 5749 , progress: 1.09 % , calculating descriptors for seq: SDYLQLART
+ID: 5737 , progress: 0.16 % , calculating descriptors for seq: FYHSKRRLIFSKRKP
+ID: 5748 , progress: 0.31 % , calculating descriptors for seq: DAHGSGNAHKQQDINHLLD
+ID: 5749 , progress: 1.25 % , calculating descriptors for seq: SLEDIEHEVEELLR
+ID: 5734 , progress: 0.31 % , calculating descriptors for seq: MAILRSEEIREMDGEELQKKLDELKAEYARYISKSAAAGIHENPGKMREIRRTIARVLTIMNEK
+ID: 5732 , progress: 0.31 % , calculating descriptors for seq: NDDELHMLMTDLVYEALHFAKDEEIKKRVFQLFELADKAYKNNDRQKLEKVVEELKELLERLLS
+ID: 5749 , progress: 1.40 % , calculating descriptors for seq: GVQKSEVVITSA
+ID: 5747 , progress: 0.78 % , calculating descriptors for seq: PASPQKRAASPRRSPKKSPRKSPKKSPRKRSASP
+ID: 5749 , saving ...
+ID: 5729 , progress: 0.31 % , calculating descriptors for seq: KRHHGYKRKFHEKHHSHR
+ID: 5749 , continuing
+ID: 5749 , progress: 1.56 % , calculating descriptors for seq: IPLDTIAGYKE
+ID: 5738 , progress: 0.16 % , calculating descriptors for seq: ATCDLASFSSQWVTPNDSLCAAHCLVKGYRGGYCKNKICHCRDKF
+ID: 5737 , progress: 0.31 % , calculating descriptors for seq: KLAGRW
+ID: 5743 , progress: 0.94 % , calculating descriptors for seq: GASCDCHPFKGTYWFGTSNCPSGHGYRKKCDSFF
+ID: 5737 , progress: 0.47 % , calculating descriptors for seq: RNCESLSHRFKGPCTRDSNC
+ID: 5749 , progress: 1.72 % , calculating descriptors for seq: APTPATLNGLTIFAPNDEAFKATGVPDLSKLSNAPMVSLLQYHAAAR
+ID: 5748 , progress: 0.47 % , calculating descriptors for seq: SVFDEYLEKSKANK
+ID: 5729 , progress: 0.47 % , calculating descriptors for seq: WLGALFKVASK
+ID: 5748 , progress: 0.62 % , calculating descriptors for seq: NYQYSPPPPPKKKYY
+ID: 5729 , progress: 0.62 % , calculating descriptors for seq: DLWNSIKDMAAAAGRAALNAVTGMVNQ
+ID: 5737 , progress: 0.62 % , calculating descriptors for seq: GAFGNFLKGVAKKAGLKILSIAQCKLFGTC
+ID: 5730 , progress: 0.47 % , calculating descriptors for seq: GLFTLIKGAAKLIGKTVAKEAGKTGLELMACKITNQC
+ID: 5748 , progress: 0.78 % , calculating descriptors for seq: MDPAGPDNDERFTYDYYRLRVVGLIVAAVL
+ID: 5733 , progress: 0.16 % , calculating descriptors for seq: MRCIALFLVLSLVVLMAEPGEGFFFHIIEGLIHAGRMIHRFVHRRRHRHGMEELQDLDQRAFERESAFA
+ID: 5741 , progress: 0.16 % , calculating descriptors for seq: MQPSTATAAPKEKTSSEKKDNYIIKGVFWDPACVIA
+ID: 5740 , progress: 0.16 % , calculating descriptors for seq: MSTSRKLKSHGMRRSKSRSPHKGVKRGGSKRKYRKGNLKSRKRGDDANRNYRSHL
+ID: 5729 , progress: 0.78 % , calculating descriptors for seq: MNFTKLFAIVLLAALVLLGQTEAGGLKKLGKKLEGVGKRVFKASEKALPVAVGIKALGK
+ID: 5743 , progress: 1.09 % , calculating descriptors for seq: MAQPTASAQKLVRPIRAVCRILQIPESDPSNLRP
+ID: 5747 , progress: 0.94 % , calculating descriptors for seq: MEKWQCTVCGYIYDPEVGDPTQNIPPGTKFEDLPDDWVCPDCGVGKDQFEKI
+ID: 5737 , progress: 0.78 % , calculating descriptors for seq: PAQPFRIKKRQGPFERP
+ID: 5746 , progress: 0.31 % , calculating descriptors for seq: EAEPHSRI
+ID: 5746 , progress: 0.47 % , calculating descriptors for seq: YQKSSPGSNITT
+ID: 5746 , progress: 0.62 % , calculating descriptors for seq: YQTSSPGSNITIGPL
+ID: 5737 , progress: 0.94 % , calculating descriptors for seq: RNRICRTSEKYYREFCGHAGNDDCLSKSTKKPKPFKCVCHDNRSQNITSINDRYNNCICTFYC
+ID: 5748 , progress: 0.94 % , calculating descriptors for seq: NGAPQPFVRF
+ID: 5730 , progress: 0.62 % , calculating descriptors for seq: VLLFLFQAAPGSADAPFADTAACRSQGNFCRAGACPPTFAASGSCHGGLLNCCAK
+ID: 5738 , progress: 0.31 % , calculating descriptors for seq: RRRGRSPRRRTPSPRRRRSQSPRRRRSC
+ID: 5748 , progress: 1.09 % , calculating descriptors for seq: AMRNALVRF
+ID: 5746 , progress: 0.78 % , calculating descriptors for seq: DVGPSTLANN
