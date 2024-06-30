@@ -19,7 +19,8 @@ rule all:
     input:
         os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db"),
         os.path.join(ROOT_DIR, "03-EDA/AA-makeup.pdf"),
-        os.path.join(ROOT_DIR, "03-EDA/seqLengthDistribution.pdf")
+        os.path.join(ROOT_DIR, "03-EDA/seqLengthDistribution.pdf"),
+        os.path.join(ROOT_DIR, "unified-final.db")
 
 
 rule curation:
@@ -44,6 +45,6 @@ rule calculate_descriptors:
     input:
         os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db")
     output:
-        os.path.join(ROOT_DIR, "unified_final.db")
-    notebook:
-        os.path.join(ROOT_DIR, "02-Data_Curation/DB_curation.ipynb")
+        os.path.join(ROOT_DIR, "unified-final.db")
+    script:
+        os.path.join(ROOT_DIR, "04-Data_calculate_Descriptors/CD2.py")

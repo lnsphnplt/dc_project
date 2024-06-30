@@ -9,6 +9,15 @@ from rdkit.Chem import Descriptors
 from tqdm import tqdm
 import warnings
 
+if os.getenv("SNAKEMAKE_EXECUTION"):
+    # Adjusts paths for Snakemake execution
+    input = "./02-Data_Curation/unified-curated.db"
+    output = "unified-final.db"
+else:
+    # Adjusts paths for local execution
+    input = "../01-Data_Extraction/new_data_pos_neg.csv"
+    output = "../unified-final.db"
+
 # This is surely not causing a hewsladache later on...
 warnings.filterwarnings("ignore")
 
@@ -16,7 +25,7 @@ warnings.filterwarnings("ignore")
 db_lock = mp.Lock()
 
 def get_sql_con():
-    con = sqlite3.connect('02-Data_Curation/unified-curated.db')
+    con = sqlite3.connect(input)
     return con
 
 def reset_sql_tables(row, table_name="prod_desc"):
@@ -40,7 +49,6 @@ def reset_sql_tables(row, table_name="prod_desc"):
     )
     """
     df.to_sql(table_name, con, if_exists="replace")
-    print(create_table_query)
     cur.execute(create_table_query)
     
     con.commit()
@@ -133,5 +141,9 @@ if __name__ == "__main__":
     # Signal the process to stop and wait for it to finish
     stop_event.set()
     printer_process.join()
+
+    if os.getenv("SNAKEMAKE_EXECUTION"):
+        import shutil
+        shutil.copy(input, output)
 
     print("Calculation complete.")
