@@ -27,6 +27,30 @@ pip install --force-reinstall -v "numpy==1.26.4"
 * 04-Data_processing
     * provides the scripts necessairy to calculate the descriptors localy or on euler cluster
 
+* 05-Loggistic_logistic regression
+    * Logistic regression 
+
+* 06-SVM
+    * Support vector machine
+
+* 07-KNN
+    * K-nearest neighbours
+
+* 08-RFC
+    * Random forest classifier
+
+* Workflow
+    * contains all data relevant to snakemake
+
+* EmergencyStop.txt
+    * execute if docker acts up
+
+* StartVirtualEnv.py
+    * Execute to create the development environement we used
+
+* Unified-final
+    * Final sqlite database with all the calculated descriptors and sequences
+
 ## Snakemake
 For optimal reproducablity this entire project can be run via snakemake. However there are some caviats and things to adress:
 
