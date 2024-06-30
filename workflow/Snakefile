@@ -20,7 +20,8 @@ rule all:
         os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db"),
         os.path.join(ROOT_DIR, "03-EDA/AA-makeup.pdf"),
         os.path.join(ROOT_DIR, "03-EDA/seqLengthDistribution.pdf"),
-        os.path.join(ROOT_DIR, "unified-final.db")
+        os.path.join(ROOT_DIR, "unified-final.db"),
+        os.path.join(ROOT_DIR, "05-logistic_regression/roc.pdf")
 
 
 rule curation:
@@ -48,3 +49,11 @@ rule calculate_descriptors:
         os.path.join(ROOT_DIR, "unified-final.db")
     script:
         os.path.join(ROOT_DIR, "04-Data_calculate_Descriptors/CD2.py")
+
+rule logistic_regression:
+    input:
+        os.path.join(ROOT_DIR, "unified-final.db")
+    output:
+        os.path.join(ROOT_DIR, "05-logistic_regression/roc.pdf")
+    notebook:
+        os.path.join(ROOT_DIR, "05-logistic_regression/logistic regression.ipynb")
