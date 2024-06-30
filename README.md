@@ -223,9 +223,17 @@ scp username@euler.ethz.ch:/cluster/scratch/username/unified-curated.db .
 
 ### Local execution
 
-This is not recommend however if you want to run it locally: Execute the following commands from the root directory. (Maybe do this in a venv)
-Install dependencies
+This is not recommend however if you want to run it locally.
  ```bash
-sudo pip install -r 00-Utils/Docker-ipnyb-execution/requirements.txt
-python3 04-Data_calculate_Descriptors/CD2.py
+snakemake --until calculate_descriptors --sdm apptainer --cores all
  ```
+
+4. calculate the rest
+
+We have decided to not delete our results from the jupyter notebooks as they are sometimes take a lot of time regenerate and are to a certain degree random. 
+
+However if you wish to recalculate them:
+
+```bash
+snakemake --cores all --sdm apptainer
+```

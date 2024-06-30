@@ -5,7 +5,7 @@ FROM python:3.11
 WORKDIR /app
 
 # Copy requirements file and script into the container
-COPY /00-Utils/Docker-ipnyb-execution/requirements.txt /app/requirements.txt
+COPY requirements.txt /app/requirements.txt
 
 # Install dependencies
 RUN pip install -r requirements.txt

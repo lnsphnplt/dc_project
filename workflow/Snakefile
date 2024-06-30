@@ -21,7 +21,11 @@ rule all:
         os.path.join(ROOT_DIR, "03-EDA/AA-makeup.pdf"),
         os.path.join(ROOT_DIR, "03-EDA/seqLengthDistribution.pdf"),
         os.path.join(ROOT_DIR, "unified-final.db"),
-        os.path.join(ROOT_DIR, "05-logistic_regression/roc.pdf")
+        os.path.join(ROOT_DIR, "05-logistic_regression/roc.pdf"),
+        os.path.join(ROOT_DIR, "06-SVM/output.pdf"),
+        os.path.join(ROOT_DIR, "08-RFC/roc.png"),
+        os.path.join(ROOT_DIR, "07-KNN/final_pcaPN_four.png"),
+        os.path.join(ROOT_DIR, "06-SVM/roc.pdf")
 
 
 rule curation:
@@ -57,3 +61,38 @@ rule logistic_regression:
         os.path.join(ROOT_DIR, "05-logistic_regression/roc.pdf")
     notebook:
         os.path.join(ROOT_DIR, "05-logistic_regression/logistic regression.ipynb")
+
+
+rule svm_kernel:
+    input:
+        os.path.join(ROOT_DIR, "unified-final.db")
+    output:
+        os.path.join(ROOT_DIR, "06-SVM/output.pdf")
+    notebook:
+        os.path.join(ROOT_DIR, "06-SVM/SVM kernelPCA.ipynb")
+
+rule svm_model:
+    input:
+        os.path.join(ROOT_DIR, "unified-final.db")
+    output:
+        os.path.join(ROOT_DIR, "06-SVM/roc.pdf")
+    notebook:
+        os.path.join(ROOT_DIR, "06-SVM/SVM kernelPCA.ipynb")
+
+rule knn:
+    input:
+        os.path.join(ROOT_DIR, "unified-final.db")
+    output:
+        os.path.join(ROOT_DIR, "07-KNN/final_pcaPN_four.png")
+    notebook:
+        os.path.join(ROOT_DIR, "07-KNN/knn.ipynb")
+
+rule rfc:
+    input:
+        os.path.join(ROOT_DIR, "unified-final.db")
+    output:
+        os.path.join(ROOT_DIR, "08-RFC/roc.png")
+    notebook:
+        os.path.join(ROOT_DIR, "07-KNN/roc.ipynb")
+
+

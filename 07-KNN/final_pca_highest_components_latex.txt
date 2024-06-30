@@ -1,13 +1,13 @@
 \begin{tabular}{lllll}
 \toprule
-{} &   PC &           3 &             2 &               1 \\
+ & PC & 3 & 2 & 1 \\
 \midrule
-0 &  PC0 &   PEOE\_VSA2 &    PEOE\_VSA12 &  HeavyAtomCount \\
-1 &  PC1 &   PEOE\_VSA4 &  EState\_VSA11 &      SlogP\_VSA6 \\
-2 &  PC2 &    SMR\_VSA4 &   SlogP\_VSA12 &       PEOE\_VSA4 \\
-3 &  PC3 &  PEOE\_VSA11 &  EState\_VSA11 &     EState\_VSA9 \\
-4 &  PC4 &  SlogP\_VSA4 &   EState\_VSA9 &    EState\_VSA11 \\
-5 &  PC5 &    SMR\_VSA4 &  EState\_VSA11 &      PEOE\_VSA14 \\
-6 &  PC6 &  SlogP\_VSA4 &  EState\_VSA11 &     EState\_VSA7 \\
+0 & PC0 & PEOE_VSA2 & HeavyAtomCount & PEOE_VSA12 \\
+1 & PC1 & SlogP_VSA12 & EState_VSA11 & SlogP_VSA6 \\
+2 & PC2 & SMR_VSA4 & PEOE_VSA4 & SlogP_VSA12 \\
+3 & PC3 & PEOE_VSA11 & EState_VSA11 & EState_VSA9 \\
+4 & PC4 & SlogP_VSA4 & EState_VSA9 & EState_VSA11 \\
+5 & PC5 & SMR_VSA4 & EState_VSA11 & PEOE_VSA14 \\
+6 & PC6 & SlogP_VSA4 & EState_VSA11 & EState_VSA7 \\
 \bottomrule
 \end{tabular}

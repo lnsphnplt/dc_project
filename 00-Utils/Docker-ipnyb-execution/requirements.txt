@@ -15,4 +15,5 @@ propy3
 snakemake
 tables
 selenium
+bayesian-optimization
 
