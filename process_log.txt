@@ -1,0 +1,60 @@
+ID: 45324, Packetsize: 642 , Calculation started
+ID: 45323, Packetsize: 642 , Calculation started
+ID: 45338, Packetsize: 641 , Calculation started
+ID: 45331, Packetsize: 641 , Calculation started
+ID: 45336, Packetsize: 641 , Calculation started
+ID: 45328, Packetsize: 642 , Calculation started
+ID: 45337, Packetsize: 641 , Calculation started
+ID: 45342, Packetsize: 641 , Calculation started
+ID: 45339, Packetsize: 641 , Calculation started
+ID: 45326, Packetsize: 642 , Calculation started
+ID: 45341, Packetsize: 641 , Calculation started
+ID: 45332, Packetsize: 641 , Calculation started
+ID: 45340, Packetsize: 641 , Calculation started
+ID: 45337, progress: 0.16 % , calculating descriptors for seq: CWFPWC
+ID: 45327, Packetsize: 642 , Calculation started
+ID: 45335, Packetsize: 641 , Calculation started
+ID: 45342, progress: 0.16 % , calculating descriptors for seq: SPTLDDEHNDNFVRL
+ID: 45334, Packetsize: 641 , Calculation started
+ID: 45337, progress: 0.31 % , calculating descriptors for seq: GCEWVSWC
+ID: 45340, progress: 0.16 % , calculating descriptors for seq: NQEGLFRGR
+ID: 45340, progress: 0.31 % , calculating descriptors for seq: NEESLFSGR
+ID: 45337, progress: 0.47 % , calculating descriptors for seq: GCEWDSWC
+ID: 45324, progress: 0.16 % , calculating descriptors for seq: VWRKWRRFW
+ID: 45340, progress: 0.47 % , calculating descriptors for seq: NEEVLFGGR
+ID: 45337, progress: 0.62 % , calculating descriptors for seq: CYRPPVC
+ID: 45325, Packetsize: 642 , Calculation started
+ID: 45326, progress: 0.16 % , calculating descriptors for seq: IKLSKETKDNLKKVLKGAIKGAIAVAKMV
+ID: 45337, progress: 0.78 % , calculating descriptors for seq: MDRETEAETAELVTESLVEEVSIDGMCGVY
+ID: 45339, progress: 0.16 % , calculating descriptors for seq: HSHSEVSQISGEWYSVLLASDHREKIEYNGSMRVFVEYIH
+ID: 45330, Packetsize: 642 , Calculation started
+ID: 45342, progress: 0.31 % , calculating descriptors for seq: PDYLQLARA
+ID: 45340, progress: 0.62 % , calculating descriptors for seq: NYTIGNDNVLTEPLSEIKTAGLMYKMGVQ
+ID: 45329, Packetsize: 642 , Calculation started
+ID: 45324, progress: 0.31 % , calculating descriptors for seq: LPKWKVFKKIEKVGRNIRNGIVKAGPAIAVLGEAKALG
+ID: 45341, progress: 0.16 % , calculating descriptors for seq: DVVASSTAHKQQDINHLLDK
+ID: 45342, progress: 0.47 % , calculating descriptors for seq: PAPETNYLRDP
+ID: 45333, Packetsize: 641 , Calculation started
+ID: 45342, progress: 0.62 % , calculating descriptors for seq: ADYLQLTRA
+ID: 45338, progress: 0.16 % , calculating descriptors for seq: NAGAPQHLCGSHLVDALYLVCGPSGFFYNPKGIVEQCCHKPCSIFDLQNYCN
+ID: 45342, progress: 0.78 % , calculating descriptors for seq: ADYLRLARA
+ID: 45342, progress: 0.94 % , calculating descriptors for seq: PASDSGFLRDP
+ID: 45336, progress: 0.16 % , calculating descriptors for seq: KFCERPSGTWAGVCGNNGKCKDQCIRLEKAKHGSCKYKFPAHRCVCYYEC
+ID: 45342, progress: 1.09 % , calculating descriptors for seq: SDYLQLART
+ID: 45341, progress: 0.31 % , calculating descriptors for seq: DAHGSGNAHKQQDINHLLD
+ID: 45342, progress: 1.25 % , calculating descriptors for seq: SLEDIEHEVEELLR
+ID: 45342, progress: 1.40 % , calculating descriptors for seq: GVQKSEVVITSA
+ID: 45341, progress: 0.47 % , calculating descriptors for seq: SVFDEYLEKSKANK
+ID: 45342, saving ...
+ID: 45328, progress: 0.16 % , calculating descriptors for seq: IKTLLHFFQRF
+ID: 45342, continuing
+ID: 45342, progress: 1.56 % , calculating descriptors for seq: IPLDTIAGYKE
+ID: 45326, progress: 0.31 % , calculating descriptors for seq: NDDELHMLMTDLVYEALHFAKDEEIKKRVFQLFELADKAYKNNDRQKLEKVVEELKELLERLLS
+ID: 45341, progress: 0.62 % , calculating descriptors for seq: NYQYSPPPPPKKKYY
+ID: 45342, progress: 1.72 % , calculating descriptors for seq: APTPATLNGLTIFAPNDEAFKATGVPDLSKLSNAPMVSLLQYHAAAR
+ID: 45328, progress: 0.31 % , calculating descriptors for seq: MAILRSEEIREMDGEELQKKLDELKAEYARYISKSAAAGIHENPGKMREIRRTIARVLTIMNEK
+ID: 45331, progress: 0.16 % , calculating descriptors for seq: FYHSKRRLIFSKRKP
+ID: 45323, progress: 0.16 % , calculating descriptors for seq: SRSSRAGLQFPVGRIHRLLRK
+ID: 45337, progress: 0.94 % , calculating descriptors for seq: GASCDCHPFKGTYWFGTSNCPSGHGYRKKCDSFF
+ID: 45341, progress: 0.78 % , calculating descriptors for seq: MDPAGPDNDERFTYDYYRLRVVGLIVAAVL
+ID: 45340, progress: 0.78 % , calculating descriptors for seq: PASPQKRAASPRRSPKKSPRKSPKKSPRKRSASP

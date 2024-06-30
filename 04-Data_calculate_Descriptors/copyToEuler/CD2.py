@@ -119,6 +119,10 @@ if __name__ == "__main__":
     # Start the queue printer process
     stop_event = mp.Event()
     log_filename = "process_log.txt"
+    # Create an empty file
+    with open(log_filename, 'w') as file:
+        pass  # Just opening and closing the file
+    log_filename = os.path.abspath(log_filename)
     printer_process = mp.Process(target=queue_printer, args=(msg_queue, stop_event, log_filename, total_messages))
     printer_process.start()
 

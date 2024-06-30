@@ -43,7 +43,7 @@ pip install --force-reinstall -v "numpy==1.26.4"
     * contains all data relevant to snakemake
 
 * EmergencyStop.txt
-    * execute if docker acts up
+    * execute if docker acts up or anything becomes sentient
 
 * StartVirtualEnv.py
     * Execute to create the development environement we used
@@ -108,6 +108,12 @@ To skip this step:
 ```bash
 mv 01-Data_Extraction/new_data_pos_neg_backup.csv 01-Data_Extraction/new_data_pos_neg.csv
 ```
+
+Theoretically you could run: 
+```bash 
+snakemake --cores all --sdm apptainer
+```
+from here and our entire project would be recreated automatically. However we do not recommend this. Explenations can be found at the relevant steps.
 
 2. Create database and validate data
 

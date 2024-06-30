@@ -23,9 +23,10 @@ rule all:
         os.path.join(ROOT_DIR, "unified-final.db"),
         os.path.join(ROOT_DIR, "05-logistic_regression/roc.pdf"),
         os.path.join(ROOT_DIR, "06-SVM/output.pdf"),
-        os.path.join(ROOT_DIR, "08-RFC/roc.png"),
         os.path.join(ROOT_DIR, "07-KNN/final_pcaPN_four.png"),
-        os.path.join(ROOT_DIR, "06-SVM/roc.pdf")
+        os.path.join(ROOT_DIR, "08-RFC/roc.png"),
+        os.path.join(ROOT_DIR, "08-RFC/roc.png")
+
 
 
 rule curation:
@@ -77,7 +78,7 @@ rule svm_model:
     output:
         os.path.join(ROOT_DIR, "06-SVM/roc.pdf")
     notebook:
-        os.path.join(ROOT_DIR, "06-SVM/SVM kernelPCA.ipynb")
+        os.path.join(ROOT_DIR, "06-SVM/SVM model.ipynb")
 
 rule knn:
     input:
@@ -93,6 +94,6 @@ rule rfc:
     output:
         os.path.join(ROOT_DIR, "08-RFC/roc.png")
     notebook:
-        os.path.join(ROOT_DIR, "07-KNN/roc.ipynb")
+        os.path.join(ROOT_DIR, "08-RFC/randomforest.ipynb")
 
 
