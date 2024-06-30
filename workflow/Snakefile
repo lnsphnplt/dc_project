@@ -22,7 +22,7 @@ rule all:
         os.path.join(ROOT_DIR, "03-EDA/seqLengthDistribution.pdf")
 
 
-rule create_sql_db_and_curate_data:
+rule curation:
     input:
         os.path.join(ROOT_DIR, "01-Data_Extraction/new_data_pos_neg.csv")
     output:
@@ -42,7 +42,6 @@ rule EDA:
 
 rule calculate_descriptors:
     input:
-        os.path.join(ROOT_DIR, "03-EDA/AA-makeup.pdf"),
         os.path.join(ROOT_DIR, "02-Data_Curation/unified-curated.db")
     output:
         os.path.join(ROOT_DIR, "unified_final.db")

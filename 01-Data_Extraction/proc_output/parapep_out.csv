@@ -19,7 +19,7 @@
 20140481,20140481,LFcin B,1,"('Antiamoebiasis', 'In vitro', 'Membrane disruption')",Lactoferricin B,parapep.html,RRWQWRMKKLG
 15304333,15304333,Psalmopeotoxin II (PcFK2),1,"('Antimalarial', 'In vitro', 'Not reported')",Venom of the tarantula Psalmopoeus cambridgei,parapep.html,RCLPAGKTCVRGPMRVPCCGSCSQNKCT
 16460023,16460023,Trialysin peptide P6_2,1,"('Cytolytic', 'In vitro', 'Pore formation in membrane')",Synthetic,parapep.html,FSISPGKVLDKFGKIVGKVLKQLKKVSAVAKV
-17635867,17635867,Human defensin α 1,1,"('Effector molecule of Innate Immunity', 'In vitro', 'Pore formation in membrane, induction of nuclear and mitochondrial DNA fragmentation')",Human leukocytes,parapep.html,ACYCRIPACIAGERRYGTCIYQGRLWAFCC
+17635867,17635867,Human defensin Î± 1,1,"('Effector molecule of Innate Immunity', 'In vitro', 'Pore formation in membrane, induction of nuclear and mitochondrial DNA fragmentation')",Human leukocytes,parapep.html,ACYCRIPACIAGERRYGTCIYQGRLWAFCC
 18519720,18519720,TP10,1,"('Cell penetrating peptide, antimicrobial', 'In vitro', 'Plasma membrane permeabilization')",Synthetic,parapep.html,AGYLLGKINLKALAALAKKIL
 23084276,23084276,"2,5-diketopiperazine 23",1,"('Antimalarial,antibacterial,antifungal,antitumoral,antiviral', 'In vitro', 'Not defined')",Synthetic,parapep.html,VG
 17462586,17462586,Gramicidin S,1,"('Antimicrobial', 'In vitro', 'Disrupt plasma membrane permeability')",Brevibacillus brevis (Nagano),parapep.html,VOLFPVOLFP
@@ -53,7 +53,7 @@
 18973386,18973386,Aerucyclamide D,1,"('Antiparasitic', 'In vitro', 'Not defined')",Microcystis aeruginosa PCC 7806,parapep.html,ITGCIC
 19615342,19615342,AdDLP,1,"('Antimicrobial', 'In vitro', 'Not defined')",Myxobacterium Anaeromyxobacter dehalogenans,parapep.html,VNPSYRLDPESRPQCEAHCGQLGMRLGAIVIMGTATGCVCEPKEAATPESR
 20097251,20097251,Meucin-25,1,"('Antimicrobial', 'In vitro', 'Plasma membrane permealization')",Synthetic,parapep.html,VKLIQIRIWIQYVTVLQMFSMKTKQ
-22118799,22118799,VA3,1,"('Antibacterial', 'In vitro', 'Not defined')",Synthetic,parapep.html,KWΔFWKΔFAKΔFAK
+22118799,22118799,VA3,1,"('Antibacterial', 'In vitro', 'Not defined')",Synthetic,parapep.html,KWÎ”FWKÎ”FAKÎ”FAK
 3049204,3049204,Shiva-1,1,"('Lytic peptide', 'In vitro', 'Not defined')",Synthetic cecropin B derivative,parapep.html,MPRWRLFRRIDRVGKQIKQGILRAGPAIALVGDARAVG
 12069961,12069961,Vida 3,1,"('Antimicrobial', 'In vitro', 'Inhibit ookinet development')",Synthetic,parapep.html,KFPKFRRGIPFLFV
 20206169,20206169,Moricin,1,"('Antimicrobial', 'In vitro', 'Plasma membrane permeabilization')",Bombyx mori,parapep.html,AKIPIKAIKTVGKAVGKGLRAINIASTANDVFNFLKPKKRKH
@@ -61,13 +61,13 @@
 12825184,12825184,Protegrin-1,1,"('Antimicrobial', 'In vitro', 'Plasma membrane permeabilization')",Cathelicidin,parapep.html,RGGRLCYCRRRFCVCVGR
 2285300,2285300,Magainin analog B,1,"('Antimicrobial', 'In vitro', 'Damage plasma membrane')",Xenopus laevis,parapep.html,GIGKFLHAAKKFAKAFVAEIMNS
 21404438,21404438,Dermaseptin 01,1,"('Antimicrobial', 'In vitro', 'Damage plasma membrane')",Skin secretion of frog Phyllomedusa oreades,parapep.html,GLWSTIKQKGKEAAIAAAKAAGQAALGAL
-20135360,20135360,α-defensin-5,1,"('Antimicrobial', 'In vitro', 'Aggregation of tachyzoite form and reduced parasite viability')",Human,parapep.html,ATCYCRTGRCATRESLSGVCEISGRLYRLCCR
+20135360,20135360,Î±-defensin-5,1,"('Antimicrobial', 'In vitro', 'Aggregation of tachyzoite form and reduced parasite viability')",Human,parapep.html,ATCYCRTGRCATRESLSGVCEISGRLYRLCCR
 18230684,18230684,Dhvar4,1,"('Antimicrobial', 'In vitro', 'Bioenergetic collapse of the parasite by decreasing mitochondrial ATP synthesis through inhibition of F1F0-ATPase, with subsequent fast ATP exhaustion')",Histatin 5 analog,parapep.html,KRLFKKLLFSLRKY
 15273109,15273109,MG-H2,1,"('Antimicrobial', 'In vitro', 'Permeabilization of the promastigote plasma membrane')",Magainin 2 analog,parapep.html,IIKKFLHSIWKFGKAFVGEIMNI
-20617807,20617807,"CA(1–7)M(2–9)K1,3,6,7,13 (Me3)5",1,"('Antimicrobial', 'In vitro', 'Plasma membrane permeabilization')",Cecropin/melittin hybrid,parapep.html,KWKLFKKIGAVLKVL
+20617807,20617807,"CA(1â€“7)M(2â€“9)K1,3,6,7,13 (Me3)5",1,"('Antimicrobial', 'In vitro', 'Plasma membrane permeabilization')",Cecropin/melittin hybrid,parapep.html,KWKLFKKIGAVLKVL
 8851578,8851578,Alamethicin,1,"('Antibiotic', 'In vitro', 'Incorporated into membranes and facilitate the diffusion of ions such as H+, Na+, K+, and Ca2+; this then leads to ionic gradient and content modifications.')",Trichoderma viride,parapep.html,P-Mea-A-Mea-AQ-Mea-V-Mea-GL-Mea-PV-Mea-Mea-EQ
 2759705,2759705,Cecropin B,1,"('Antimicrobial', 'In vivo', 'Membrane distortion')",Giant silk moth Hyalophora cecropia,parapep.html,KWKVFKKIEKMGRNIRNGIVKAGPAIAVLGEAKAL
-11502512,11502512,Pamε1-CA(1-7)M(2-9),1,"('Antibacterial, antiparasitic and antifungal', 'In vitro', 'Membrane distortion')",Synthetic cecropin/melittin hybrid,parapep.html,KWKLFKKIGAVLKVL
+11502512,11502512,PamÎµ1-CA(1-7)M(2-9),1,"('Antibacterial, antiparasitic and antifungal', 'In vitro', 'Membrane distortion')",Synthetic cecropin/melittin hybrid,parapep.html,KWKLFKKIGAVLKVL
 14638488,14638488,Compound 9052,1,"('Cysteine protease inhibitor', 'In vitro', 'Inhibit cysteine protease hemoglobinases falcipain-2 and falcipain-3')",Synthetic,parapep.html,F-hPhe
 17981364,17981364,Anoplin,1,"('Antimicrobial', 'In vitro', 'Plasma membrane permeabilization')",Solitary wasp venom,parapep.html,GLLKRIKTLL
 18332165,18332165,NK-2,1,"('Antimicrobial', 'In vitro', 'Plasma membrane permeabilization')",Synthetic shortened analog of the mammalian defens,parapep.html,KILRGVCKKIMRTFLRRISKDILTGKK
@@ -79,15 +79,15 @@
 17888907,17888907,Clavanin-A,1,"('Antimicrobial', 'In vitro', 'Membrane permeabilization')",Ascidean Styela clava,parapep.html,VFQFLGKIIHHVGNFVHGFSHVF
 18657321,18657321,Drosomycin-2,1,"('Antifungal', 'In vitro', 'Not defined')",Drosophila melanogaster haemolymph,parapep.html,DCLSGKYKGPCAVWDNEMCRRICKEEGHISGHCSPSLKCWCEGC
 23116712,23116712,Temporin-SHd,1,"('Antimicrobial', 'In vitro', 'Transient pore formation and membrane permeation/disruption')",Skin of Eurasian and New World ranid frog Pelophyl,parapep.html,FLPAALAGIGGILGKLF
-20045493,20045493,RMeuTXKβ1 truncated derivative N(1–21),1,"('Scorpion venom toxin', 'In vitro', 'Block voltage gated K+ channels(Kv)')",Scorpion Mesobuthus eupeus,parapep.html,GFREKHFQRFVKYAVPESTLR
+20045493,20045493,RMeuTXKÎ²1 truncated derivative N(1â€“21),1,"('Scorpion venom toxin', 'In vitro', 'Block voltage gated K+ channels(Kv)')",Scorpion Mesobuthus eupeus,parapep.html,GFREKHFQRFVKYAVPESTLR
 18543965,18543965,Mollamide B,1,"('Cyclic Hexapeptides', 'In vitro', 'Not defined')",Indonesian tunicate Didemnum molle,parapep.html,TPF-V-Tzn-V
 17328572,17328572,Venturamide B,1,"('Cyanobactins', 'In vitro', 'Not defined')",Marine cyanobacterium Oscillatoria sp,parapep.html,ATTCVC
-19361504,19361504,LTP2(lipid transfer protein) α-1 isoform,1,"('Antibiotic', 'In vitro', 'Collapsed ionic and pH gradients across the parasite plasma membrane,deplete intracellular ATP without affecting mitochondrial potential')",Barley (Hordeum vulgare),parapep.html,ACQASQLAVCASAILSGAKPSGECCGNLRAQQGCFCQYAKDPTYGQYIRSPHARDTLTSCGLAVPHC
+19361504,19361504,LTP2(lipid transfer protein) Î±-1 isoform,1,"('Antibiotic', 'In vitro', 'Collapsed ionic and pH gradients across the parasite plasma membrane,deplete intracellular ATP without affecting mitochondrial potential')",Barley (Hordeum vulgare),parapep.html,ACQASQLAVCASAILSGAKPSGECCGNLRAQQGCFCQYAKDPTYGQYIRSPHARDTLTSCGLAVPHC
 11293244,11293244,"[Ala1,7] CLA",1,"('Cyclolinopeptide', 'In vitro', 'Not defined')",Isolated from linseed,parapep.html,AIILVPAFF
 18726072,18726072,Scorpine (RScp),1,"('Antimicrobial', 'In vitro', 'Increase plasma membrane permeabilization')",Recombinantly expressed scorpine (RScp),parapep.html,GWINEEKIQKKIDERMGNTVLGRMAKAIVHKMAKNEFQCMANMDMLGNCEKHCQTSGEKGYCHGTKCKCGTPLSY
 19161344,19161344,Gallinamide A (Symplostatin 4),1,"('Antimalarial', 'In vitro', 'Not defined')",Red-tipped Schizothrix sp.,parapep.html,"[(2S)-1-[[(2S)-1-[[(E,2S)-5-[(2S)-3-methoxy-2-methyl-5-oxo-2H-pyrrol-1-yl]-5-oxopent-3-en-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]-(2S,3S)-2-(dimethylamino)-3-methylpentanoate"
 15073289,15073289,Coronamycin,1,"('Antifungal', 'In vitro', 'Not defined')",Streptomyces,parapep.html,Not_Available
-17854020,17854020,α-Peptide–β-Peptoid Chimeras 3d,1,"('Antimicrobial', 'In vitro', 'Membrane distruption')",Synthetic,parapep.html,Not_Available
+17854020,17854020,Î±-Peptideâ€“Î²-Peptoid Chimeras 3d,1,"('Antimicrobial', 'In vitro', 'Membrane distruption')",Synthetic,parapep.html,Not_Available
 12194969,12194969,FTase inhibitor I,1,"('Prenyltransferase inhibitor', 'In vitro', 'Inhibit P.falciparum farnesyltransferase')",Synthetic,parapep.html,Not_Available
 18305429,18305429,2-(2-tert-Butoxycarbonylamino-3-phenyl-propionylamino)-cyclooctanecarboxylic acid methyl ester (4.5),1,"('Antimalarial', 'In vivo', 'Plasmepsinaspartyl proteases inhibitor')",Synthetic,parapep.html,Not_Available
 16309324,16309324,Hirsutatin A,1,"('Antimycobacterial', 'In vitro', 'Not defined')",Fungus Hirsutella nivea BCC 2595,parapep.html,Not_Available
@@ -95,6 +95,6 @@
 17269825,17269825,Paecilodepsipeptide C,1,"('Antimalarial and antitumor', 'In vitro', 'Not defined')","Paecilomyces cinnamomeus BCC 9,616",parapep.html,Not_Available
 17441769,17441769,Dragonamide B,1,"('Alkynoic lipopeptide', 'In vitro', 'Not defined')",Organic extracts of L. majuscula,parapep.html,N-Methyl-N-[(2S)-2-methyl-7-octynoyl]-L-valyl-N-methyl-L-valyl-N-methyl-L-valyl-N2-methyl-L-valinamide
 21450320,21450320,Hemsine A,1,"('Cyclopeptide alkaloids', 'In vitro', 'Not defined')",Root extract of Z. mauritiana,parapep.html,Not_Available
-19299148,19299148,Beauvericin A,1,"('Antibiotic', 'In vitro', 'Not defined')","Paecilomyces tenuipes BCC 1,614",parapep.html,cyclo[(2R)-​2-​hydroxy-​3-​methylbutanoyl-​N-​methyl-​L-​phenylalanyl-​(2R)-​2-​hydroxy-​3-​methylbutanoyl-​N-​methyl-​L-​phenylalanyl-​(2R)-​2-​hydroxy-​3-​methylbutanoyl-​N-​methyl-​L-​phenylalanyl]
+19299148,19299148,Beauvericin A,1,"('Antibiotic', 'In vitro', 'Not defined')","Paecilomyces tenuipes BCC 1,614",parapep.html,cyclo[(2R)-â€‹2-â€‹hydroxy-â€‹3-â€‹methylbutanoyl-â€‹N-â€‹methyl-â€‹L-â€‹phenylalanyl-â€‹(2R)-â€‹2-â€‹hydroxy-â€‹3-â€‹methylbutanoyl-â€‹N-â€‹methyl-â€‹L-â€‹phenylalanyl-â€‹(2R)-â€‹2-â€‹hydroxy-â€‹3-â€‹methylbutanoyl-â€‹N-â€‹methyl-â€‹L-â€‹phenylalanyl]
 8999899,8999899,Anisomycine,1,"('Protein synthesis inhibitor', 'In vitro', 'Inhibitor of peptidyl transferase')",Streptomyces griseolus,parapep.html,Not_Available
 9517961,9517961,Micrococcin,1,"('Antimalarial', 'In vitro', 'Binds tightly to a small region of eubacterial LSU rRNA and inhibits the GTPase reaction catalyzed by ribosomes in the presence of EF-G')",Bacillus and Micrococcus spp,parapep.html,Not_Available

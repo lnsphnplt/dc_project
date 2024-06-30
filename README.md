@@ -68,7 +68,22 @@ dc_project/workflow/config.yaml
 
 To reproduce our project we recommend the following steps:
 
-1. To do: Data extraction automation
+1. Data extraction
+
+
+It is theoretically possible to run the webscraping in a docker environment, however everytime we tried to implement this we had a lot of problems with a) the virtualisation of a headless browser in docker and b) Spam/bot detection. This is why we recommend running this locally so your browerser is going to have a more unique fingerprint and avoids the bot detection. To do this:
+
+```bash
+pip install 00-Utils/Docker-ipnyb-execution/requirements.txt
+jupyter nbconvert --execute 01-Data_Extraction/scraping.ipynb --to notebook
+jupyter nbconvert --execute 01-Data_Extraction/data_extraction.ipynb --to notebook
+jupyter nbconvert --execute 01-Data_Extraction/unified_data.ipynb --to notebook
+```
+
+To skip this step:
+```bash
+mv 01-Data_Extraction/new_data_pos_neg_backup.csv 01-Data_Extraction/new_data_pos_neg.csv
+```
 
 2. Create database and validate data
 
@@ -78,15 +93,20 @@ snakemake --until EDA --sdm apptainer -c all
 
 This only executes the first part of the project. Depending on your internet speed it takes a moment for the docker image to be downloaded. The image only needs to downloaded once.
 
+To skip this step:
+```bash
+mv 02-Data_Curation/unified-curated_backup.db 02-Data_Curation/unified-curated.db
+```
+
 3. Calculate descriptors
 
 You can let this run automatically in snakemake however we dont recomend this. This is a very performance intensive task. We have optimized the code to make use of multithreading. Running this in a docker container would waste computing power by the virtualization used by docker. This calculation will max out your CPU, making your PC unusable for the next 15-60 min (Depending on the performance of your PC). We recommend letting this run on the euler cluster. 
 
-If you want to skip calculating the descripors yourself:
-```bash
-mv unified-curated-backup.db unified-curated.db
-```
 
+To skip this step:
+```bash
+mv unified-final_backup.db unified-final.db
+```
 
 ### Calculate on Euler
 SSH into euler (you need to be in a eth network or use the VPN)

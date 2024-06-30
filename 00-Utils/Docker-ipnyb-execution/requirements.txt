@@ -14,3 +14,5 @@ statsmodels
 propy3
 snakemake
 tables
+selenium
+
