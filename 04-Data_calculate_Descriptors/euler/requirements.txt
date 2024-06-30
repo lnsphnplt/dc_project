@@ -1,9 +1,0 @@
-Bio==1.7.0
-biopython==1.83
-numpy==1.26.4
-pandas==2.2.2
-propy3==1.1.1
-rdkit==2023.9.6
-tqdm==4.65.0  
-tables==3.9.2
-h5py==3.11.0
